@@ -142,6 +142,7 @@ header, footer, span, a, p, article {
 /* single contents */
 .single_article_title {
 	padding: 0 10px;
+	margin-bottom: 40px;
 }
 .single_article_content img {
 	max-width: 100%;
