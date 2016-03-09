@@ -95,6 +95,10 @@ header, footer, span, a, p, article {
 	display: block;
 	margin: auto;
 }
+content img {
+	max-width: 100%;
+	height: auto;
+}
 
 /* footer */
 #footer {
