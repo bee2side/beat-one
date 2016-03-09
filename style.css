@@ -142,7 +142,8 @@ header, footer, span, a, p, article {
 /* single contents */
 .single_article_title {
 	padding: 0 10px;
-	margin-bottom: 40px;
+	display: block;
+    margin: 40px 0 40px 0;
 }
 .single_article_content img {
 	max-width: 100%;
@@ -151,4 +152,5 @@ header, footer, span, a, p, article {
 .single_article_content > p, .single_article_content > a  {
 	font-size: 15px;
 	padding: 0 10px;
+	margin-bottom: 20px;
 }
