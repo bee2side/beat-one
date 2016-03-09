@@ -155,5 +155,5 @@ header, footer, span, a, p, article {
 	margin-bottom: 20px;
 }
 .single_article_content p:first-child {
-	padding: 0 200px;
+	padding: 0;
 }
