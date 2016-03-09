@@ -42,7 +42,7 @@ header, footer, span, a, p, article {
 .menu_normal {
 	padding: 15px 10px 0 10px;
 	height: 48px;
-	background-color: #000;
+	background-color: #fff;
 	border-bottom: 1px solid #eee;
 }
 .blogTitle {
