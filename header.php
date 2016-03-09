@@ -15,7 +15,7 @@
 		<div id="container">
 				<div id="header">
 					<div class="menu_normal">
-						<div class="blogTitle"></div>
+						<a href="<?php echo home_url(); ?>"><div class="blogTitle"></div></a>
 						<span class="menubtn"></span>
 					</div>
 					<?php
