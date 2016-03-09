@@ -53,7 +53,7 @@ header, footer, span, a, p, article {
 	float: left;
 }
 .menubtn {
-	width: 22px;
+	width: 20px;
 	height: 8px;
 	background: url(image/buttonsx2.png) no-repeat 0 -25px;
 	background-size: 70px 200px;
