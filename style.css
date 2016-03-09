@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* {
+	padding: 0; margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+
+/* grobal */
+a, a:link, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+header, footer, span, a, p, article {
+	font-size: 22px;
+}
+
+/* container */
+#main {
+	margin-top: 20px;
+}
+.pagenavi {
+	display: none;
+}
+
+/* header */
+.menu_normal {
+	padding: 15px 10px 0 10px;
+	height: 48px;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+.blogTitle {
+	width: 24px;
+	height: 15px;
+	background: url(image/buttonsx2.png) no-repeat 0 0;
+	background-size: 70px 200px;
+	float: left;
+}
+.menubtn {
+	width: 22px;
+	height: 8px;
+	background: url(image/buttonsx2.png) no-repeat 0 -25px;
+	background-size: 70px 200px;
+	float: right;
+	margin-top: 4px;
+}
+
+/* contents */
+.index_article_thumb {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 135px;
+	background-position:center top;
+	background-size: cover;
+	background-color: #eee;
+	margin-bottom: 12px;
+}
+.index_article_title {
+	display: block;
+	font-size: 20px;
+	padding: 0 10px;
+	margin-bottom: 8px;
+	word-break:break-all;
+}
+.index_article_info a{
+	display: block;
+	font-size: 11px;
+	padding: 0 10px;
+	margin-bottom: 40px;
+	word-break:break-all;
+}
+#wp-load-more-btn {
+	width: 26px;
+	height: 26px;
+	background: url(image/buttonsx2.png) no-repeat 0 -43px;
+	background-size: 70px 200px;
+	border: 0 solid #000;
+	display: block;
+	margin: auto;
+}
+
+/* footer */
+#footer {
+	margin-top: 60px;
+}
+#footer span {
+	font-size: 10px;
+	margin-bottom: 16px;
+	display: block;
+}
+.twitterbtn {
+	width: 21px;
+	height: 17px;
+	background: url(image/buttonsx2.png) no-repeat 0 -79px;
+	background-size: 70px 200px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.facebookbtn {
+	width: 11px;
+	height: 18px;
+	background: url(image/buttonsx2.png) no-repeat 0 -105px;
+	background-size: 70px 200px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+.copyright {
+	float: left;
+	margin-left: 50px;
+	line-height: 1.2;
+}
+.b2btn {
+	width: 32px;
+	height: 20px;
+	background: url(image/buttonsx2.png) no-repeat 0 -131px;
+	background-size: 70px 200px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+}
