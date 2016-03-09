@@ -8,9 +8,11 @@
 						<?php the_title(); ?>
 					</a>
 				</span>
+<!--
 				<span class="single_article_info">
 					<?php echo get_the_date(); ?> <?php echo get_the_time(); ?>&nbsp;&#183;&nbsp;<?php the_category(', '); ?>
 				</span>
+-->
 				<div class="single_article_content">
 					<?php the_content(); ?>
 				</div>
