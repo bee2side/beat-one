@@ -154,6 +154,6 @@ header, footer, span, a, p, article {
 	padding: 0 10px;
 	margin-bottom: 20px;
 }
-.single_article_content p:img {
+.single_article_content :first-child {
 	padding: 0 200px;
 }
