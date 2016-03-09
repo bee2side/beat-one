@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$(".single_article_content p:has(img)").addClass("test");
 	var menuNum = 0
 	function menuOn(){
 		if(menuNum == 0){
