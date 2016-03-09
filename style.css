@@ -154,7 +154,7 @@ header, footer, span, a, p, article {
 	padding: 0 10px;
 	margin-bottom: 20px;
 }
-.img_container {
+.single_article_content .img_container {
 	padding: 0;
 }
 .single_article_content .alignleft {
