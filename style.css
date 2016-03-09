@@ -98,6 +98,7 @@ header, footer, span, a, p, article {
 /* footer */
 #footer {
 	margin-top: 60px;
+	padding-bottom: 40px;
 }
 #footer span {
 	font-size: 10px;
