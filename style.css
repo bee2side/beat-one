@@ -62,7 +62,7 @@ header, footer, span, a, p, article {
 }
 .menu_open {
 	padding: 15px 10px 0 10px;
-	background-color: #000;
+	background-color: red;
 	opacity: 0.95;
 	position: absolute;
 	top: 0;
