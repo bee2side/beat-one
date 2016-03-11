@@ -18,9 +18,9 @@
 						<a href="<?php echo home_url(); ?>"><div class="blogTitle"></div></a>
 						<span class="menubtn"></span>
 					</div>
-					<?php
-						// wp_nav_menu( array(
-						// 	'theme_location' => 'main_menu',
-						// ));
-					?>
+					<div class="menu_open">
+						<a href="<?php echo home_url(); ?>"><div class="blogTitle"></div></a>
+						<span class="menubtn"></span>
+						<?php wp_nav_menu( array('theme_location' => 'main_menu',)); ?>
+					</div>
 				</div>
