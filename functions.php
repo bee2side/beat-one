@@ -5,10 +5,17 @@
 	register_nav_menus( array(
 		'main_menu' => 'Main Menu',
 	));
-	// side-bar
+
+	// top-menu
 	register_sidebar( array(
-		'name' => __( 'sidebar' ),
-		'before_widget' => '<div class="widget">',
+		'name' => __( 'top_menu' ),
+		'before_widget' => '<div class="top_menu">',
+		'after_widget' => '</div>',
+	));
+	// bottom-menu
+	register_sidebar( array(
+		'name' => __( 'bottom_menu' ),
+		'before_widget' => '<div class="bottom_menu">',
 		'after_widget' => '</div>',
 	));
 	// excerpt legnth change

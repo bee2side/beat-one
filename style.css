@@ -89,6 +89,9 @@ header, footer, span, a, p, article {
 	display: block;
 	margin-top: 40px;
 }
+.menu_open > a {
+	font-size: 0;
+}
 .menu_open a {
 	color: #fff;
 }
@@ -96,14 +99,14 @@ header, footer, span, a, p, article {
 	display: inline;
 	padding-right: 60px;
 }
-.widget {
+.top_menu {
 	margin-top: 30px;
 }
-.widgettitle {
+.top_menu .widgettitle {
 	color: #ddd;
 	font-size: 10px;
 }
-.widget ul li {
+.top_menu ul li {
 	display: inline-block;
 	padding-right: 60px;
 	padding-top: 15px;

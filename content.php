@@ -26,7 +26,8 @@
 			) );
 		?>
 	</div>
-	<?php wp_nav_menu( array('theme_location' => 'main_menu',)); ?>
+	<?php if ( ! dynamic_sidebar("bottom_menu") ) : ?>
+	<?php endif; ?>
 <script>
 	$(".single_article_content p:has(img)").addClass("img_container");
 </script>

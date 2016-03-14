@@ -3,11 +3,11 @@ $(document).ready(function(){
 	function menuOn(){
 		if(menuNum == 0){
 			$(".menu_open").css("display", "none");
-			// $(".menubtn").css("background-position-x", "-70px")
+			$(".menu_normal").css("display", "block");
 			menuNum = 1;
 		}else{
 			$(".menu_open").css("display", "block");
-			//$(".menubtn").css("background-position-x", "0")
+			$(".menu_normal").css("display", "none");
 			menuNum = 0;
 		}
 	};
