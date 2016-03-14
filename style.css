@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	font-style: normal;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.5pt;
 }
 header, footer, span, a, p, article {
 	font-size: 22px;
@@ -109,7 +109,7 @@ header, footer, span, a, p, article {
 }
 .top_menu ul li {
 	display: inline-block;
-	padding-right: 60px;
+	padding-right: 30px;
 	padding-top: 22px;
 }
 
@@ -196,7 +196,9 @@ header, footer, span, a, p, article {
 .single_article_title {
 	padding: 0 10px;
 	display: block;
-    margin: 40px 0 40px 0;
+    margin: 30px 0 8px 0;
+    font-size: 24px;
+    text-align: center;
 }
 .single_article_content img {
 	width: 100%;
