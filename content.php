@@ -8,20 +8,10 @@
 						<?php the_title(); ?>
 					</a>
 				</span>
-<!--
-				<span class="single_article_info">
-					<?php echo get_the_date(); ?> <?php echo get_the_time(); ?>&nbsp;&#183;&nbsp;<?php the_category(', '); ?>
-				</span>
--->
 				<div class="single_article_content">
 					<?php the_content(); ?>
 				</div>
 			</article>
-<!--
- 			<div class="single_article_comment">
-				<?php comments_template(); ?>
-			</div>
--->
 		<?php endwhile; else: ?>
 			<h2>Sorry!</h2>
 		<?php endif; ?>
@@ -36,7 +26,6 @@
 			) );
 		?>
 	</div>
-<!--
  	<div class="sidebar">
 		<div class="single_sidebar_widget">
 			<?php
@@ -48,7 +37,6 @@
 			<?php endif; ?>
 		</div>
 	</div>
--->
 <script>
 	$(".single_article_content p:has(img)").addClass("img_container");
 </script>
