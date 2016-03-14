@@ -75,8 +75,7 @@ header, footer, span, a, p, article {
 	height: 15px;
 	background: url(image/buttonsx2.png) no-repeat -35px 0;
 	background-size: 70px 200px;
-	display: block;
-	float: left;
+	display: inline-block;
 }
 .menu_open .menubtn {
 	width: 24px;
@@ -98,8 +97,8 @@ header, footer, span, a, p, article {
 	display: inline;
 	padding-right: 60px;
 }
-#menu-menu {
-	display: none;
+.widgettitle {
+	color: #fff;
 }
 
 
