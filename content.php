@@ -26,12 +26,7 @@
 			) );
 		?>
 	</div>
- 	<div class="sidebar">
-		<div class="single_sidebar_widget">
-			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("sidebar") ) : ?>
-			<?php endif; ?>
-		</div>
-	</div>
+	<?php wp_nav_menu( array('theme_location' => 'main_menu',)); ?>
 <script>
 	$(".single_article_content p:has(img)").addClass("img_container");
 </script>

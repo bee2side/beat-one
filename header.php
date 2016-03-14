@@ -21,6 +21,11 @@
 					<div class="menu_open">
 						<a href="<?php echo home_url(); ?>"><div class="blogTitle"></div></a>
 						<span class="menubtn"></span>
-						<?php wp_nav_menu( array('theme_location' => 'main_menu',)); ?>
+						 	<div class="sidebar">
+								<div class="single_sidebar_widget">
+									<?php if ( ! dynamic_sidebar() ) : ?>
+									<?php endif; ?>
+								</div>
+							</div>
 					</div>
 				</div>
