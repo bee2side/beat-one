@@ -91,7 +91,6 @@ header, footer, span, a, p, article {
 }
 .menu_open a {
 	color: #fff;
-	font-size: 18px;
 }
 .menu ul li {
 	display: inline;
@@ -101,12 +100,13 @@ header, footer, span, a, p, article {
 	margin-top: 30px;
 }
 .widgettitle {
-	color: #fff;
+	color: #ddd;
 	font-size: 10px;
 }
 .widget ul li {
-	display: inline;
-	padding-right: 30px;
+	display: inline-block;
+	padding-right: 60px;
+	padding-top: 15px;
 }
 
 
