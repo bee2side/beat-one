@@ -28,7 +28,7 @@
 	</div>
  	<div class="sidebar">
 		<div class="single_sidebar_widget">
-			<?php if ( ! dynamic_sidebar() ) : ?>
+			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("sidebar") ) : ?>
 			<?php endif; ?>
 		</div>
 	</div>

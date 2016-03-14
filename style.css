@@ -98,7 +98,9 @@ header, footer, span, a, p, article {
 	display: inline;
 	padding-right: 60px;
 }
-
+#menu-menu {
+	display: none;
+}
 
 
 /* footer */
