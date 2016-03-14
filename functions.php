@@ -21,6 +21,10 @@
 		return '...&nbsp;&nbsp;&nbsp;<a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('more', 'your-text-domain') . '</a>';
 	}
 	add_filter('excerpt_more', 'new_excerpt_more');
+	wp_nav_menu( array(
+		'theme_location' => 'main_menu',
+		'fallback_cb' => false,
+	));
 
 	// comment fields remove
 	// function crunchify_disable_comment_url( $fields ) {
