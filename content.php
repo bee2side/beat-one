@@ -28,11 +28,6 @@
 	</div>
  	<div class="sidebar">
 		<div class="single_sidebar_widget">
-			<?php
-				wp_nav_menu( array(
-				'theme_location' => 'main_menu',
-				));
-			?>
 			<?php if ( ! dynamic_sidebar() ) : ?>
 			<?php endif; ?>
 		</div>
