@@ -26,8 +26,24 @@
 			) );
 		?>
 	</div>
-	<?php if ( ! dynamic_sidebar("bottom_menu") ) : ?>
-	<?php endif; ?>
+	<div id="cooler-nav" class="navigation">
+		<?php $prevPost = get_previous_post(true);
+		if($prevPost) {?>
+		<div class="nav-box previous">
+			<?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, array(100,100) );}?>
+			<?php previous_post_link('%link',"$prevthumbnail  %title", TRUE); ?>
+		</div>
+
+		<?php $nextPost = get_next_post(true);
+		if($nextPost) { ?>
+		<div class="nav-box next">
+			<?php $nextthumbnail = get_the_post_thumbnail($nextPost->ID, array(100,100) ); } ?>
+			<?php next_post_link('%link',"$nextthumbnail  %title", TRUE); ?>
+		</div>
+	</div><!--#cooler-nav div -->
+
+<!-- 	<?php if ( ! dynamic_sidebar("bottom_menu") ) : ?>
+	<?php endif; ?> -->
 <script>
 	$(".single_article_content p:has(img)").addClass("img_container");
 </script>
