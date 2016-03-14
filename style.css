@@ -178,7 +178,7 @@ header, footer, span, a, p, article {
 	display: block;
 	font-size: 11px;
 	padding: 0 10px;
-	margin-bottom: 22px;
+	margin-bottom: 24px;
 	word-break:break-all;
 }
 #wp-load-more-btn {
