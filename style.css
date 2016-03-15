@@ -221,7 +221,7 @@ header, footer, span, a, p, article {
 	background-color: #eee;
 	padding: 8px 10px;
 }
-.bottom_nev > a > img {
+.bottom_nev > div > a > img {
 	width: 120px;
 	height: 54px;
 	vertical-align: bottom;
