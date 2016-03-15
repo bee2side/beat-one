@@ -33,14 +33,12 @@
             <?php $nextthumbnail = get_the_post_thumbnail($nextPost->ID, 'full' );} ?>
             <?php next_post_link('%link',"$nextthumbnail  %title", TRUE); ?>
         </div>
-
         <?php $prevPost = get_previous_post(true);
         if($prevPost) {?>
         <div class="bottom_prev">
             <?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, 'full' );}?>
             <?php previous_post_link('%link',"$prevthumbnail  %title", TRUE); ?>
         </div>
-
     </div>
 <script>
 	$(".single_article_content p:has(img)").addClass("img_container");

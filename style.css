@@ -43,7 +43,7 @@ header, footer, span, a, p, article {
 	padding: 15px 10px 0 10px;
 	height: 48px;
 	background-color: #fff;
-	border-bottom: 1px solid #eee;
+	/*border-bottom: 1px solid #eee;*/
 }
 .menu_normal .blogTitle {
 	width: 24px;
