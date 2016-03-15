@@ -217,3 +217,18 @@ header, footer, span, a, p, article {
 .single_article_content .alignleft {
 	padding: 10px;
 }
+.bottom_nev {
+	background-color: #eee;
+	padding: 8px 10px;
+}
+.bottom_nev > a > img {
+	width: 120px;
+	height: 54px;
+	vertical-align: bottom;
+	margin-bottom: 1px;
+}
+.bottom_nev > div > a {
+	word-break: break-all;
+	font-size: 18px;
+	vertical-align: top;
+}

@@ -26,21 +26,22 @@
 			) );
 		?>
 	</div>
-	<div id="cooler-nav" class="navigation">
-		<?php $nextPost = get_next_post(true);
-		if($nextPost) { ?>
-		<div class="nav-box next">
-			<?php $nextthumbnail = get_the_post_thumbnail($nextPost->ID, array(200,100) );} ?>
-			<?php next_post_link('%link',"$nextthumbnail  %title", TRUE); ?>
-		</div>
+    <div class="bottom_nev">
+        <?php $nextPost = get_next_post(true);
+        if($nextPost) { ?>
+        <div class="bottom_next">
+            <?php $nextthumbnail = get_the_post_thumbnail($nextPost->ID, 'full' );} ?>
+            <?php next_post_link('%link',"$nextthumbnail  %title", TRUE); ?>
+        </div>
 
-		<?php $prevPost = get_previous_post(true);
-		if($prevPost) {?>
-		<div class="nav-box previous">
-			<?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, array(200,100) );}?>
-			<?php previous_post_link('%link',"$prevthumbnail  %title", TRUE); ?>
-		</div>
-	</div>
+        <?php $prevPost = get_previous_post(true);
+        if($prevPost) {?>
+        <div class="bottom_prev">
+            <?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, 'full' );}?>
+            <?php previous_post_link('%link',"$prevthumbnail  %title", TRUE); ?>
+        </div>
+
+    </div>
 <script>
 	$(".single_article_content p:has(img)").addClass("img_container");
 </script>
