@@ -200,6 +200,7 @@ header, footer, span, a, p, article {
 }
 .single_article_title > a {
 	font-size: 26px;
+	font-weight: 200;
 }
 .single_article_content img {
 	width: 100%;
@@ -247,7 +248,8 @@ header, footer, span, a, p, article {
 	float: left;
 }
 .bottom_nev div  a {
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 200;
 	display: block;
 	padding: 8px 10px 0 130px;
 	width: 100%;
