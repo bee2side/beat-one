@@ -30,14 +30,18 @@
         <div class="bottom_next">
             <?php $nextPost = get_next_post(true);
         	if($nextPost) { ?>
-            <?php $nextthumbnail = get_the_post_thumbnail($nextPost->ID, 'full' );} ?>
-            <?php next_post_link('%link',"$nextthumbnail  %title", TRUE); ?>
+				<?php $nextthumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($nextPost->ID), 'full' ); ?>
+				<div class="bottom_next_thumb" style="background-image: url('<?php echo $nextthumbnail['0']; ?>')">
+				</div>
+            <?php next_post_link('%link', "%title", true);} ?>
         </div>
         <div class="bottom_prev">
             <?php $prevPost = get_previous_post(true);
-        	if($prevPost) {?>
-            <?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, 'full' );}?>
-            <?php previous_post_link('%link',"$prevthumbnail  %title", TRUE); ?>
+        	if($prevPost) { ?>
+			<?php $prevthumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($prevPost->ID), 'full' ); ?>
+			<div class="bottom_prev_thumb" style="background-image: url('<?php echo $prevthumbnail['0']; ?>')">
+			</div>
+			<?php previous_post_link('%link', "%title", true);} ?>
         </div>
     </div>
 <script>
