@@ -215,7 +215,8 @@ header, footer, span, a, p, article {
 	padding: 0;
 }
 .single_article_content .alignleft {
-	padding: 10px;
+	padding: 0 10px;
+	float: left;
 }
 
 /* bottom nev */
