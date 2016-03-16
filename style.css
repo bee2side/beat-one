@@ -33,7 +33,7 @@ header, footer, span, a, p, article {
 
 /* container */
 #main {
-	margin-top: 20px;
+	margin-top: 12px;
 }
 .pagenavi {
 	display: none;
@@ -196,7 +196,7 @@ header, footer, span, a, p, article {
 .single_article_title {
 	padding: 0 10px;
 	display: block;
-    margin: 30px 0 8px 0;
+    margin: 22px 0 8px 0;
     text-align: center;
 }
 .single_article_title > a {
