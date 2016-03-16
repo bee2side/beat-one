@@ -17,4 +17,8 @@ $(document).ready(function(){
 	$(".menubtn").click(function(){
 		menuOn();
 	});
+	$(window).scroll(function(){
+		menuNum = 0;
+		menuOn();
+	})
 });
