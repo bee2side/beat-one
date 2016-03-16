@@ -36,7 +36,7 @@ header, footer, span, a, p, article {
 	margin-top: 12px;
 }
 .pagenavi {
-	display: none;
+	/*display: none;*/
 }
 
 /* header */
