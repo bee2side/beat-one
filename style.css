@@ -244,10 +244,11 @@ header, footer, span, a, p, article {
 	float: left;
 }
 .bottom_nev div  a {
-	font-size: 16px;
+	font-size: 14px;
 	display: block;
-	padding: 10px 0 0 130px;
+	padding: 8px 10px 0 130px;
 	width: 100%;
 	height: 100%;
+	line-height: 1.2;
 	position: absolute;
 }
