@@ -207,7 +207,7 @@ header, footer, span, a, p, article {
 	height: auto;
 }
 .single_article_content > p, .single_article_content > a  {
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0 10px;
 	margin-bottom: 20px;
 	line-height: 1.4;
@@ -247,7 +247,7 @@ header, footer, span, a, p, article {
 	float: left;
 }
 .bottom_nev div  a {
-	font-size: 16px;
+	font-size: 18px;
 	display: block;
 	padding: 8px 10px 0 130px;
 	width: 100%;
