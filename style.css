@@ -206,10 +206,11 @@ header, footer, span, a, p, article {
 	height: auto;
 }
 .single_article_content > p, .single_article_content > a  {
-	font-size: 14px;
+	font-size: 16px;
 	padding: 0 10px;
 	margin-bottom: 20px;
-	line-height: 1.4
+	line-height: 1.4;
+	font-weight: 200;
 }
 .single_article_content .img_container {
 	padding: 0;
