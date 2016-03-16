@@ -30,9 +30,9 @@
         <div class="bottom_next">
             <?php $nextPost = get_next_post(true);
         	if($nextPost) { ?>
-				<?php $nextthumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($nextPost->ID), 'full' ); ?>
-				<div class="bottom_next_thumb" style="background-image: url('<?php echo $nextthumbnail['0']; ?>')">
-				</div>
+			<?php $nextthumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($nextPost->ID), 'full' ); ?>
+			<div class="bottom_next_thumb" style="background-image: url('<?php echo $nextthumbnail['0']; ?>')">
+			</div>
             <?php next_post_link('%link', "%title", true);} ?>
         </div>
         <div class="bottom_prev">
