@@ -27,15 +27,15 @@
 		?>
 	</div>
     <div class="bottom_nev">
-        <?php $nextPost = get_next_post(true);
-        if($nextPost) { ?>
         <div class="bottom_next">
+            <?php $nextPost = get_next_post(true);
+        	if($nextPost) { ?>
             <?php $nextthumbnail = get_the_post_thumbnail($nextPost->ID, 'full' );} ?>
             <?php next_post_link('%link',"$nextthumbnail  %title", TRUE); ?>
         </div>
-        <?php $prevPost = get_previous_post(true);
-        if($prevPost) {?>
         <div class="bottom_prev">
+            <?php $prevPost = get_previous_post(true);
+        	if($prevPost) {?>
             <?php $prevthumbnail = get_the_post_thumbnail($prevPost->ID, 'full' );}?>
             <?php previous_post_link('%link',"$prevthumbnail  %title", TRUE); ?>
         </div>

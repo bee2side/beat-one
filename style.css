@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
 	font-weight: 200;
 	font-style: normal;
 	letter-spacing: 0.5pt;
+	word-break: break-all;
 }
 header, footer, span, a, p, article {
 	font-size: 22px;
@@ -173,14 +174,12 @@ header, footer, span, a, p, article {
 	font-size: 18px;
 	padding: 0 10px;
 	margin-bottom: 4px;
-	word-break:break-all;
 }
 .index_article_info a{
 	display: block;
 	font-size: 11px;
 	padding: 0 10px;
 	margin-bottom: 24px;
-	word-break:break-all;
 }
 #wp-load-more-btn {
 	width: 26px;
@@ -218,17 +217,23 @@ header, footer, span, a, p, article {
 	padding: 10px;
 }
 .bottom_nev {
-	background-color: #eee;
-	padding: 8px 10px;
+	background-color: #fff;
+	border-top: 10px solid #eee;
+	border-bottom: 10px solid #eee;
+}
+.bottom_nev > div {
+	display: inline-block;
 }
 .bottom_nev > div > a > img {
 	width: 120px;
 	height: 54px;
 	vertical-align: bottom;
 	margin-bottom: 1px;
+	float: left;
+	padding-right: 10px;
 }
 .bottom_nev > div > a {
-	word-break: break-all;
 	font-size: 18px;
 	vertical-align: top;
+	line-height: 1.8;
 }
