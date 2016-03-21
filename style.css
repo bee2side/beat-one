@@ -225,7 +225,7 @@ header, footer, span, a, p, article {
 }
 .single_article_title > a {
 	font-size: 32px;
-    line-height: 1.0;
+    line-height: 1.2;
 }
 .single_article_content img {
 	width: 100%;
