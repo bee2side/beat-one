@@ -110,7 +110,7 @@ header, footer, span, a, p, article {
 }
 .menu_open a {
 	color: #fff;
-	font-size: 12px;
+	font-size: 20px;
 }
 .menu_open > a {
 	font-size: 0;
@@ -129,7 +129,7 @@ header, footer, span, a, p, article {
 .top_menu ul li {
 	display: inline-block;
 	padding-right: 30px;
-	padding-top: 18px;
+	padding-top: 12px;
 }
 
 
