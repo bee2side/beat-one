@@ -194,8 +194,8 @@ header, footer, span, a, p, article {
 	display: block;
 	font-size: 18px;
 	padding: 0 10px;
-	margin-bottom: 8px;
-	line-height: 1.2;
+	margin-bottom: 6px;
+	line-height: 1.0;
 }
 .index_article_info {
 	padding: 0 10px;
