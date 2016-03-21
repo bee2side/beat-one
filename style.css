@@ -195,7 +195,7 @@ header, footer, span, a, p, article {
 	font-size: 18px;
 	padding: 0 10px;
 	margin-bottom: 6px;
-	line-height: 1.0;
+	line-height: 1.2;
 }
 .index_article_info {
 	padding: 0 10px;
@@ -296,6 +296,7 @@ header, footer, span, a, p, article {
 		height: 14px;
 		background: url(image/buttonsx1.png) no-repeat 0 -40px;
 		background-size: 140px 800px;
+	    margin-top: 6px;
 	}
 
 	/* container */
@@ -321,7 +322,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_title {
 		padding: 0;
-		font-size: 20px;
+		font-size: 26px;
 	}
 	.index_article_info {
 		padding: 0;
