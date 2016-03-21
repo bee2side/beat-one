@@ -55,11 +55,11 @@ header, footer, span, a, p, article {
 }
 .menu_normal .menubtn {
 	width: 20px;
-	height: 9px;
+	height: 10px;
 	background: url(image/buttonsx2.png) no-repeat 0 -25px;
 	background-size: 70px 200px;
 	float: right;
-	margin-top: 3px;
+	margin-top: 4px;
 }
 .menu_open {
 	padding: 15px 10px 0 10px;
@@ -81,7 +81,7 @@ header, footer, span, a, p, article {
 }
 .menu_open .menubtn {
 	width: 24px;
-	height: 16px;
+	height: 18px;
 	background: url(image/buttonsx2.png) no-repeat -31px -21px;
 	background-size: 70px 200px;
 	display: block;
