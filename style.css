@@ -59,7 +59,7 @@ header, footer, span, a, p, article {
 	background: url(image/buttonsx2.png) no-repeat 0 -25px;
 	background-size: 70px 200px;
 	float: right;
-	margin-top: 4px;
+	margin-top: 3px;
 }
 .menu_open {
 	padding: 15px 10px 0 10px;
