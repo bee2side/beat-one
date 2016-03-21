@@ -65,7 +65,7 @@ header, footer, span, a, p, article {
 }
 .menu_normal .blogTitle {
 	width: 24px;
-	height: 15px;
+	height: 16px;
 	background: url(image/buttonsx2.png) no-repeat 0 0;
 	background-size: 70px 200px;
 	float: left;
@@ -207,8 +207,8 @@ header, footer, span, a, p, article {
 	display: inline-block;
 }
 #wp-load-more-btn {
-	width: 26px;
-	height: 26px;
+	width: 28px;
+	height: 28px;
 	background: url(image/buttonsx2.png) no-repeat 0 -43px;
 	background-size: 70px 200px;
 	border: 0 solid #000;
