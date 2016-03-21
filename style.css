@@ -48,14 +48,14 @@ header, footer, span, a, p, article {
 }
 .menu_normal .blogTitle {
 	width: 24px;
-	height: 16px;
+	height: 15px;
 	background: url(image/buttonsx2.png) no-repeat 0 0;
 	background-size: 70px 200px;
 	float: left;
 }
 .menu_normal .menubtn {
 	width: 20px;
-	height: 8px;
+	height: 9px;
 	background: url(image/buttonsx2.png) no-repeat 0 -25px;
 	background-size: 70px 200px;
 	float: right;
