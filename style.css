@@ -335,4 +335,7 @@ header, footer, span, a, p, article {
 		margin-bottom: 32px;
 		height: 320px;
 	}
+	.index_article_thumb {
+		margin-bottom: 14px;
+	}
 }
