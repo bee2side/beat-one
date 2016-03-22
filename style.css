@@ -331,6 +331,7 @@ header, footer, span, a, p, article {
 		font-size: 12px;
 	}
 	.home_article {
-		margin-bottom: 42px;
+		margin-bottom: 32px;
+		height: 320px;
 	}
 }
