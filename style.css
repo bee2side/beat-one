@@ -306,9 +306,26 @@ header, footer, span, a, p, article {
 		margin-left: 20px;
 	}
 	.twitterbtn {
+		width: 32px;
+		height: 26px;
+		background: url(image/buttonsx1.png) no-repeat 0 -130px;
+		background-size: 140px 400px;
 		margin-left: 0;
 	}
+	.facebookbtn {
+		width: 20px;
+		height: 30px;
+		background: url(image/buttonsx1.png) no-repeat 0 -168px;
+		background-size: 140px 400px;
+		float: left;
+		margin-left: 40px;
+		margin-top: 1px;
+	}
 	.b2btn {
+		width: 64px;
+		height: 40px;
+		background: url(image/buttonsx1.png) no-repeat 0 -208px;
+		background-size: 140px 400px;
 		margin-right: 0;
 	}
 
