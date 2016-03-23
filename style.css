@@ -327,15 +327,17 @@ header, footer, span, a, p, article {
 		background-color: #fff;
 		/*border-bottom: 1px solid #eee;*/
 	}
-	article {
+	.home_article {
 		width: 480px;
 		display: inline-block;
 		float: left;
 		margin: 0 20px;
+		margin-bottom: 32px;
+		height: 320px;
 	}
 	.index_article_title {
 		padding: 0;
-		font-size: 26px;
+		font-size: 28px;
 		line-height: 1.1;
 		margin-bottom: 10px;
 	}
@@ -345,9 +347,8 @@ header, footer, span, a, p, article {
 	.index_article_info a {
 		font-size: 12px;
 	}
-	.home_article {
-		margin-bottom: 32px;
-		height: 320px;
+	.index_article_thumb {
+		margin-bottom: 16px;
 	}
 	#wp-load-more-btn {
 		width: 44px;
