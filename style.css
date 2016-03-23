@@ -308,6 +308,10 @@ header, footer, span, a, p, article {
 		width: 1040px;
 		height: 100%;
 	}
+	#footer {
+		width: 1040px;
+		float: left;
+	}
 	.menu_normal {
 		padding: 15px 20px 0 20px;
 		height: 48px;
@@ -323,6 +327,8 @@ header, footer, span, a, p, article {
 	.index_article_title {
 		padding: 0;
 		font-size: 26px;
+		line-height: 1.1;
+		margin-bottom: 10px;
 	}
 	.index_article_info {
 		padding: 0;
@@ -337,9 +343,5 @@ header, footer, span, a, p, article {
 	#wp-load-more-btn {
 		float: left;
     	margin-left: 508px;
-	}
-	#footer {
-		width: 1040px;
-		float: left;
 	}
 }
