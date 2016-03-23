@@ -334,4 +334,12 @@ header, footer, span, a, p, article {
 		margin-bottom: 32px;
 		height: 320px;
 	}
+	#wp-load-more-btn {
+		float: left;
+    	margin-left: 508px;
+	}
+	#footer {
+		width: 1040px;
+		float: left;
+	}
 }
