@@ -289,14 +289,14 @@ header, footer, span, a, p, article {
 		width: 36px;
 		height: 22px;
 		background: url(image/buttonsx1.png) no-repeat 0 0;
-		background-size: 140px 800px;
+		background-size: 140px 400px;
 	}
 	.menu_normal .menubtn {
 		width: 32px;
-		height: 14px;
+		height: 12px;
 		background: url(image/buttonsx1.png) no-repeat 0 -40px;
-		background-size: 140px 800px;
-	    margin-top: 7px;
+		background-size: 140px 400px;
+	    margin-top: 8px;
 	}
 
 	/* footer */
