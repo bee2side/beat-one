@@ -138,11 +138,6 @@ header, footer, span, a, p, article {
 	margin-top: 50px;
 	padding-bottom: 60px;
 }
-#footer span {
-	font-size: 10px;
-	margin-bottom: 16px;
-	display: block;
-}
 .twitterbtn {
 	width: 21px;
 	height: 17px;
@@ -165,6 +160,9 @@ header, footer, span, a, p, article {
 	float: left;
 	margin-left: 50px;
 	line-height: 1.6;
+    font-size: 10px;
+    margin-bottom: 16px;
+    display: block;
 }
 .b2btn {
 	width: 32px;
@@ -327,6 +325,11 @@ header, footer, span, a, p, article {
 		background: url(image/buttonsx1.png) no-repeat 0 -208px;
 		background-size: 140px 400px;
 		margin-right: 0;
+	}
+	.copyright {
+		margin-left: 100px;
+		line-height: 1.6;
+		font-size: 12px;
 	}
 
 	/* container */
