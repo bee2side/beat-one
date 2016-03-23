@@ -350,6 +350,10 @@ header, footer, span, a, p, article {
 		height: 320px;
 	}
 	#wp-load-more-btn {
+		width: 48px;
+		height: 48px;
+		background: url(image/buttonsx1.png) no-repeat 0 -43px;
+		background-size: 140px 400px;
 		float: left;
     	margin-left: 508px;
 	}
