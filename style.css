@@ -298,6 +298,7 @@ header, footer, span, a, p, article {
 		background-size: 140px 800px;
 	    margin-top: 7px;
 	}
+
 	/* footer */
 	#footer {
 		width: 1040px;
@@ -310,6 +311,7 @@ header, footer, span, a, p, article {
 	.b2btn {
 		margin-right: 0;
 	}
+
 	/* container */
 	#main {
 		margin-top: 32px;
@@ -326,6 +328,9 @@ header, footer, span, a, p, article {
 		/*border-bottom: 1px solid #eee;*/
 	}
 	article {
+		width: 480px;
+		display: inline-block;
+		float: left;
 		margin: 0 20px;
 	}
 	.index_article_title {
