@@ -163,6 +163,7 @@ header, footer, span, a, p, article {
     font-size: 10px;
     margin-bottom: 16px;
     display: block;
+    color: #888;
 }
 .b2btn {
 	width: 32px;
