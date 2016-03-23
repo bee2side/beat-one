@@ -363,6 +363,7 @@ header, footer, span, a, p, article {
 	}
 	.single_article {
 		width: 1000px;
+	    margin-left: 20px
 	}
 	.bottom_nev {
 		width: 1000px;
