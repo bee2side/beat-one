@@ -305,8 +305,8 @@ header, footer, span, a, p, article {
 		margin-left: 20px;
 	}
 	.twitterbtn {
-		width: 32px;
-		height: 26px;
+		width: 28px;
+		height: 22px;
 		background: url(image/buttonsx1.png) no-repeat 0 -130px;
 		background-size: 140px 400px;
 		margin-left: 0;
@@ -321,14 +321,15 @@ header, footer, span, a, p, article {
 		margin-top: 1px;
 	}
 	.b2btn {
-		width: 64px;
-		height: 40px;
-		background: url(image/buttonsx1.png) no-repeat 0 -208px;
+		width: 56px;
+		height: 36px;
+		background: url(image/buttonsx1.png) no-repeat 0 -210px;
 		background-size: 140px 400px;
 		margin-right: 0;
+		margin-top: 0;
 	}
 	.copyright {
-		margin-left: 100px;
+		margin-left: 80px;
 		line-height: 1.6;
 		font-size: 12px;
 	}
@@ -372,12 +373,12 @@ header, footer, span, a, p, article {
 		margin-bottom: 16px;
 	}
 	#wp-load-more-btn {
-		width: 44px;
-		height: 44px;
+		width: 36px;
+		height: 36px;
 		background: url(image/buttonsx1.png) no-repeat 0 -70px;
 		background-size: 140px 400px;
 		float: left;
-    	margin-left: 500px;
+    	margin-left: 504px;
 	}
 	#wp-load-more-btn:hover {
 		background: url(image/buttonsx1.png) no-repeat -70px -70px;
