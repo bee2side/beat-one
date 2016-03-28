@@ -472,5 +472,9 @@ header, footer, span, a, p, article {
 
 	/* top image */
 	.top_img_container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 280px;
 	}
 }
