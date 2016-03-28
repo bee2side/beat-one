@@ -492,4 +492,13 @@ header, footer, span, a, p, article {
 		width: 1520px;
 		margin-left: -760px;
 	}
+	#footer {
+	    width: 1520px;
+	}
+	.menu_open {
+		width: 1520px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: -760px;
+	}
 }
