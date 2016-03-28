@@ -469,4 +469,8 @@ header, footer, span, a, p, article {
 		background-color: red;
 		/*box-shadow: 0 0 0 6px #000 inset;*/
 	}
+
+	/* top image */
+	.top_img_container {
+	}
 }
