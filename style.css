@@ -484,3 +484,8 @@ header, footer, span, a, p, article {
 		height: 280px;
 	}
 }
+@media (min-width: 1520px) and (min-height: 670px) {
+	#main {
+		width: 1520px;
+	}
+}
