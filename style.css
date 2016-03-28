@@ -306,6 +306,7 @@ header, footer, span, a, p, article {
 	float: left;
 	margin-right: 10px;
 	background-size: 120px 54px;
+	background-color: #f3f3f3;
 }
 .bottom_nev div {
 	width: 100%;
@@ -419,7 +420,7 @@ header, footer, span, a, p, article {
 	}
 
 	/* container */
-	#main {
+	#container {
 		width: 1040px;
 		margin: auto;
 		margin-top: 32px;
@@ -485,7 +486,7 @@ header, footer, span, a, p, article {
 	}
 }
 @media (min-width: 1640px) and (min-height: 670px) {
-	#main {
+	#container{
 		width: 1560px;
 	}
 	.menu_normal {
@@ -500,5 +501,14 @@ header, footer, span, a, p, article {
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: -760px;
+	}
+	#content_content {
+		padding-top: 300px;
+		width: 1040px;
+		display: block;
+		margin: auto;
+	}
+	.bottom_nev {
+		margin-left: 280px;
 	}
 }
