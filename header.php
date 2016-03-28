@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta charset="<?php bloginfo('charset'); ?>">
-<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
 <meta name="format-detection" content="telephone=no">
 <title><?php bloginfo('name'); ?> <?php wp_title('|'); ?></title>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -24,4 +24,5 @@
 						<?php if ( ! dynamic_sidebar("top_menu") ) : ?>
 						<?php endif; ?>
 					</div>
+					<div class="menu_background_color"></div>
 				</div>
