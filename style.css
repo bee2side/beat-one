@@ -488,4 +488,8 @@ header, footer, span, a, p, article {
 	#main {
 		width: 1560px;
 	}
+	.menu_normal {
+		width: 1520px;
+		margin-left: -760px;
+	}
 }
