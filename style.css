@@ -93,6 +93,7 @@ header, footer, span, a, p, article {
     background-color: #000;
     opacity: 0.96;
     top: 0;
+    z-index: 10;
 }
 .menu_open .blogTitle {
 	width: 24px;
