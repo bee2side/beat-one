@@ -252,6 +252,7 @@ header, footer, span, a, p, article {
 .single_article_title {
 	padding: 0 10px;
 	display: block;
+	margin-bottom: 12px;
 }
 .single_article_content img {
 	width: 100%;
