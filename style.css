@@ -486,6 +486,6 @@ header, footer, span, a, p, article {
 }
 @media (min-width: 1640px) and (min-height: 670px) {
 	#main {
-		width: 1520px;
+		width: 1560px;
 	}
 }
