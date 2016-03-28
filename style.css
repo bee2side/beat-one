@@ -1,15 +1,38 @@
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
 /** Thin */
 @font-face {
   font-family: "San Francisco";
   font-weight: 200;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
 }
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
 /** Medium */
 @font-face {
   font-family: "San Francisco";
   font-weight: 500;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
 }
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
 /** Bold */
 @font-face {
   font-family: "San Francisco";
@@ -34,13 +57,15 @@ a, a:link, a:visited {
 }
 a:hover {
 	text-decoration: underline;
+    -moz-text-decoration-color: red;
+    text-decoration-color: red;
 }
 ul {
 	list-style-type: none;
 }
 h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
 	font-family: "San Francisco", Arial, sans-serif;
-	font-weight: 500;
+	font-weight: 200;
 	font-style: normal;
 	word-break: break-all;
 }
@@ -392,19 +417,20 @@ header, footer, span, a, p, article {
 		width: 480px;
 		display: inline-block;
 		float: left;
-		margin: 0 20px 36px 20px;
+		margin: 0 20px;
+		height: 324px;
 	}
 	.index_article_title {
 		padding: 0;
-		font-size: 28px;
+		font-size: 26px;
 		line-height: 1.1;
-		margin-bottom: 10px;
+		margin-bottom: 8px;
 	}
 	.index_article_info {
 		padding: 0;
 	}
 	.index_article_info a {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.index_article_thumb {
 		margin-bottom: 16px;
@@ -427,5 +453,9 @@ header, footer, span, a, p, article {
 	.bottom_nev {
 		width: 1000px;
 		margin-left: 20px;
+	}
+	.home_article:hover + .index_article_info {
+		background-color: red;
+		/*box-shadow: 0 0 0 6px #000 inset;*/
 	}
 }
