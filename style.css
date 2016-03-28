@@ -451,7 +451,7 @@ header, footer, span, a, p, article {
 		height: 36px;
 		background: url(image/buttonsx1.png) no-repeat 0 -70px;
 		background-size: 140px 400px;
-    	margin-left: 504px;
+    	/*margin-left: 504px;*/
     	clear: left;
 	}
 	#wp-load-more-btn:hover {
