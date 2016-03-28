@@ -472,11 +472,8 @@ header, footer, span, a, p, article {
 	#content_content {
 		padding-top: 300px;
 	}
-	.single_article_title {
+	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignleft {
 		padding: 0;
-	}
-	.single_article_content .alignleft {
-	    padding: 0;
 	}
 
 	/* top image */
