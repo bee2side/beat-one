@@ -341,11 +341,10 @@ header, footer, span, a, p, article {
 		margin-top: -4px;
 	}
 	.menu_normal {
-		padding: 15px 20px 0 20px;
-		height: 48px;
-		background-color: #fff;
-		width: 1040px;
-    	margin: auto;
+		padding: 15px 0 0 0;
+		width: 1000px;
+		left: 50%;
+		margin-left: -500px;
 	}
 	.menu_open {
 		width: 1040px;
