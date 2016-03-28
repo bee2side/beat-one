@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div id="main">
-	<div id="content">
+	<div id="content_content">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<article class="single_article">
 				<span class="single_article_title">
@@ -8,6 +8,7 @@
 						<?php the_title(); ?>
 					</a>
 				</span>
+				<div class="top_img_container"></div>
 				<div class="single_article_content">
 					<?php the_content(); ?>
 				</div>

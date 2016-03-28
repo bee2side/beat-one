@@ -21,4 +21,7 @@ $(document).ready(function(){
 		menuNum = 0;
 		menuOn();
 	})
+	// top image load
+	var imgName = $(".alignnone").attr('src');
+	$(".top_img_container").css("background-image", "url("+imgName+")" );
 });
