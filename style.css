@@ -250,6 +250,7 @@ header, footer, span, a, p, article {
 
 /* single contents */
 .single_article_title {
+	padding: 0 10px;
 	display: block;
 	margin-bottom: 12px;
 }
@@ -266,6 +267,7 @@ header, footer, span, a, p, article {
 	padding: 0;
 }
 .single_article_content .alignleft {
+	padding: 0 10px;
 	float: left;
 }
 /* top image */
