@@ -318,7 +318,8 @@ header, footer, span, a, p, article {
 	/* footer */
 	#footer {
 		width: 1000px;
-		margin: 50px auto;
+		margin: 60px auto;
+		clear: left;
 	}
 	.twitterbtn {
 		width: 28px;
@@ -366,7 +367,6 @@ header, footer, span, a, p, article {
 		display: inline-block;
 		float: left;
 		margin: 0 20px;
-		margin-bottom: 32px;
 		height: 328px;
 	}
 	.index_article_title {
