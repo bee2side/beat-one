@@ -477,6 +477,9 @@ header, footer, span, a, p, article {
 	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignleft {
 		padding: 0;
 	}
+	.single_article_title > a {
+		font-size: 36px;
+	}
 
 	/* top image */
 	.top_img_container {
