@@ -114,7 +114,7 @@ header, footer, span, a, p, article {
 	display: block;
 	margin-top: 40px;
 }
-.menu_open a {
+.top_menu a {
 	color: #fff;
 	font-size: 20px;
 }
@@ -337,7 +337,7 @@ header, footer, span, a, p, article {
 		padding-right: 30px;
 		padding-top: 16px;
 	}
-	.menu_open a {
+	.top_menu a {
 		font-size: 28px;
 		font-weight: 600;
 	}
