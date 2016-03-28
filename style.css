@@ -469,6 +469,9 @@ header, footer, span, a, p, article {
 		background-color: red;
 		/*box-shadow: 0 0 0 6px #000 inset;*/
 	}
+	#content_content {
+		padding-top: 300px;
+	}
 
 	/* top image */
 	.top_img_container {
