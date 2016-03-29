@@ -274,7 +274,7 @@ header, footer, span, a, p, article {
 /* top image */
 .top_img_container {
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	background-color: #eee;
 	position: absolute;
 	top: 0;
@@ -285,7 +285,7 @@ header, footer, span, a, p, article {
 	display: none;
 }
 #content_content {
-	padding-top: 150px;
+	padding-top: 130px;
 }
 
 /* bottom nev */
@@ -472,7 +472,7 @@ header, footer, span, a, p, article {
 		/*box-shadow: 0 0 0 6px #000 inset;*/
 	}
 	#content_content {
-		padding-top: 260px;
+		padding-top: 220px;
 	}
 	.single_article_content > p, .single_article_content > a {
     	font-size: 18px;
@@ -489,7 +489,7 @@ header, footer, span, a, p, article {
 		position: absolute;
 		left: 0;
 		top: 0;
-		height: 240px;
+		height: 200px;
 	}
 }
 @media (min-width: 1640px) and (min-height: 670px) {
