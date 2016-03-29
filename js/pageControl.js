@@ -35,7 +35,7 @@ $(document).ready(function(){
 		topImageSize(winWidth);
 	});
 	function topImageSize(winWidth){
-		if(winWidth>2000){
+		if(winWidth>1640){
 			$(".top_img_container").css("background-size", winWidth+"px" );
 		}else{
 			$(".top_img_container").css("background-size", "auto" );
