@@ -37,8 +37,10 @@ $(document).ready(function(){
 	function topImageSize(winWidth){
 		if(winWidth>1640){
 			$(".top_img_container").css("background-size", winWidth+"px" );
-		}else{
+		}else if(winWidth>1064){
 			$(".top_img_container").css("background-size", "auto" );
+		}else{
+			$(".top_img_container").css("background-size", "820px, 100px" );
 		}
 	};
 });
