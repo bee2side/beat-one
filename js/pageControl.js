@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	// top menu on, off
 	var menuNum = 0
 	function menuOn(){
 		if(menuNum == 0){
@@ -15,6 +16,9 @@ $(document).ready(function(){
 	};
 	menuOn();
 	$(".menubtn").click(function(){
+		menuOn();
+	});
+	$(".menubtn_content").click(function(){
 		menuOn();
 	});
 	$(window).scroll(function(){

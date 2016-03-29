@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php include ('header_content.php'); ?>
 <div id="main">
 	<div id="content_content">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
