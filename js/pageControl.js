@@ -20,8 +20,25 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		menuNum = 0;
 		menuOn();
-	})
+	});
 	// top image load
 	var imgName = $(".alignnone").attr('src');
-	$(".top_img_container").css("background-image", "url("+imgName+")" );
+	var topImage = $(".top_img_container").css("background-image", "url("+imgName+")" );
+
+	// top image width set
+	var winWidth = $(document).width();
+	topImageSize(winWidth);
+
+	// top image width change
+	$( window ).resize(function() {
+		winWidth = $(document).width();
+		topImageSize(winWidth);
+	});
+	function topImageSize(winWidth){
+		if(winWidth>2000){
+			$(".top_img_container").css("background-size", winWidth+"px" );
+		}else{
+			$(".top_img_container").css("background-size", "auto" );
+		}
+	};
 });

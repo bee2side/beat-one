@@ -278,7 +278,7 @@ header, footer, span, a, p, article {
 	background-color: #eee;
 	position: absolute;
 	top: 0;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
     background-position: center;
 }
 .alignnone {
