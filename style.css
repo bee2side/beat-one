@@ -539,8 +539,10 @@ header, footer, span, a, p, article {
 	}
 
 	/* contents */
+	.single_article_content img {
+    	max-width: 100%;
+	}
 	.alignleft, .aligncenter, .alignright {
-		max-width: 100%;
 		display: block;
 	}
 	.aligncenter {
