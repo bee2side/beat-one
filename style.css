@@ -270,7 +270,7 @@ header, footer, span, a, p, article {
 	margin-bottom: 12px;
 }
 .single_article_content img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .single_article_content > p, .single_article_content > a  {
@@ -536,6 +536,19 @@ header, footer, span, a, p, article {
 		left: 0;
 		top: 0;
 		height: 200px;
+	}
+
+	/* contents */
+	.single_article_content img {
+		max-width: 100%;
+		display: block;
+	}
+	.single_article_content .aligncenter {
+		margin: 0 auto;
+	}
+	.single_article_content .alignright {
+		margin: 0;
+		float: right;
 	}
 }
 @media (min-width: 1640px) and (min-height: 670px) {
