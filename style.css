@@ -539,14 +539,14 @@ header, footer, span, a, p, article {
 	}
 
 	/* contents */
-	.single_article_content img {
+	.alignleft, .aligncenter, .alignright {
 		max-width: 100%;
 		display: block;
 	}
-	.single_article_content .aligncenter {
+	.aligncenter {
 		margin: 0 auto;
 	}
-	.single_article_content .alignright {
+	.alignright {
 		margin: 0;
 		float: right;
 	}
