@@ -551,6 +551,7 @@ header, footer, span, a, p, article {
 	/* contents */
 	.single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignright {
     	width: auto;
+    	max-width: 100%;
     	display: block;
 	}
 	.alignleft {
