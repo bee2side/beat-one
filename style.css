@@ -269,10 +269,20 @@ header, footer, span, a, p, article {
 	display: block;
 	margin-bottom: 12px;
 }
-.single_article_content img {
+
+
+
+
+
+.single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignright {
 	width: 100%;
 	height: auto;
 }
+
+
+
+
+
 .single_article_content > p, .single_article_content > a  {
 	font-size: 16px;
 	padding: 0 10px;
@@ -539,11 +549,13 @@ header, footer, span, a, p, article {
 	}
 
 	/* contents */
-	.single_article_content img {
-    	max-width: 100%;
+	.single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignright {
+    	width: auto;
+    	display: block;
 	}
-	.alignleft, .aligncenter, .alignright {
-		display: block;
+	.alignleft {
+		margin: 0;
+		float: left;
 	}
 	.aligncenter {
 		margin: 0 auto;
