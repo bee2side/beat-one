@@ -566,7 +566,7 @@ header, footer, span, a, p, article {
 		float: right;
 	}
 }
-@media (min-width: 1640px) and (min-height: 670px) {
+/*@media (min-width: 1640px) and (min-height: 670px) {
 	#container{
 		width: 1560px;
 	}
@@ -592,4 +592,4 @@ header, footer, span, a, p, article {
 	.bottom_nev {
 		margin-left: 280px;
 	}
-}
+}*/
