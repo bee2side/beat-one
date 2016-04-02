@@ -211,8 +211,8 @@ header, footer, span, a, p, article {
     color: #888;
 }
 .b2btn {
-	width: 32px;
-	height: 20px;
+	width: 24px;
+	height: 16px;
 	background: url(image/buttonsx2.png) no-repeat 0 -131px;
 	background-size: 70px 200px;
 	float: right;
@@ -445,8 +445,8 @@ header, footer, span, a, p, article {
 		margin-top: 1px;
 	}
 	.b2btn {
-		width: 56px;
-		height: 36px;
+		width: 36px;
+		height: 22px;
 		background: url(image/buttonsx1.png) no-repeat 0 -210px;
 		background-size: 140px 400px;
 		margin-right: 0;
