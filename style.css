@@ -500,7 +500,9 @@ header, footer, span, a, p, article {
 		padding: 0;
 	}
 	.single_article_title > a {
-		font-size: 34px;
+		font-size: 48px;
+		font-weight: 300;
+		text-decoration: none;
 	}
 	.bottom_nev .bottom_next .bottom_next_thumb, .bottom_nev .bottom_prev .bottom_prev_thumb {
 		width: 180px;
