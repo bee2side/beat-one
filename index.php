@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<div id="main">
-	<div id="content">
+<div id="index_main">
+	<div id="index_content">
 		<?php if ( have_posts() ) : while (have_posts()) : the_post(); ?>
 			<article class="home_article">
 				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
