@@ -443,6 +443,7 @@ header, footer, span, a, p, article {
 	#index_main {
 		width: 1008px;
 		margin: auto;
+	    display: table;
 	}
 	#single_main {
 		width: 984px;
