@@ -337,7 +337,7 @@ header, footer, span, a, p, article {
 	/* header */
 	#header {
 		height: 60px;
-    	border-bottom: 1px solid #ddd;
+    	border-bottom: 1px solid #e5e5e5;
 	}
 	.menu_normal .blogTitle {
 		width: 36px;
