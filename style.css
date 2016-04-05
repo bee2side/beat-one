@@ -172,16 +172,16 @@ header, footer, span, a, p, article {
 }
 .twitterbtn {
 	width: 21px;
-	height: 17px;
-	background: url(image/buttonsx2.png) no-repeat 0 -79px;
+	height: 19px;
+	background: url(image/buttonsx2.png) no-repeat 0 -78px;
 	background-size: 70px 200px;
 	float: left;
 	margin-left: 10px;
 	margin-top: 4px;
 }
 .facebookbtn {
-	width: 11px;
-	height: 18px;
+	width: 13px;
+	height: 20px;
 	background: url(image/buttonsx2.png) no-repeat 0 -105px;
 	background-size: 70px 200px;
 	float: left;
@@ -197,8 +197,8 @@ header, footer, span, a, p, article {
     color: #888;
 }
 .b2btn {
-	width: 24px;
-	height: 16px;
+	width: 33px;
+	height: 20px;
 	background: url(image/buttonsx2.png) no-repeat 0 -131px;
 	background-size: 70px 200px;
 	float: right;
