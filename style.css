@@ -503,8 +503,11 @@ header, footer, span, a, p, article {
 	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignleft {
 		padding: 0;
 	}
+	.single_article_title {
+	    margin-bottom: 20px;
+	}
 	.single_article_title > a {
-		font-size: 42px;
+		font-size: 40px;
 		font-weight: 300;
 		text-decoration: none;
 	}
