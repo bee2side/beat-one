@@ -253,11 +253,11 @@ header, footer, span, a, p, article {
 .single_article_title {
 	padding: 0 10px;
 	display: block;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 }
 .single_article_title a {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 200;
 }
 .single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignright {
 	width: 100%;
