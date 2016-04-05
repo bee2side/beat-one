@@ -44,7 +44,7 @@ $(document).ready(function(){
 		}else if(winWidth>1048){
 			$(".top_img_container").css("background-size", "auto" );
 		}else{
-			$(".top_img_container").css("background-size", "1640px, 100px" );
+			$(".top_img_container").css("background-size", "820px, 100px" );
 		}
 	};
 });
