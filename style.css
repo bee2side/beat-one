@@ -65,11 +65,8 @@ h1, h2, h3, h4, h5, h6, header, footer, span, a, p, article {
 	word-break: break-all;
 }
 header, footer, span, a, p, article {
-	font-size: 24px;
+	font-size: 22px;
 }
-
-/* container */
-
 /* header */
 .menu_normal {
 	padding: 15px 10px 0 10px;
@@ -272,6 +269,9 @@ header, footer, span, a, p, article {
 }
 .single_article_content .alignleft {
 	padding: 0 10px;
+	float: left;
+}
+.aligncenter {
 	float: left;
 }
 
