@@ -257,7 +257,7 @@ header, footer, span, a, p, article {
 }
 .single_article_title a {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 }
 .single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignright {
 	width: 100%;
