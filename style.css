@@ -253,7 +253,7 @@ header, footer, span, a, p, article {
 .single_article_title {
 	padding: 0 10px;
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 .single_article_title a {
 	font-size: 20px;
@@ -293,7 +293,7 @@ header, footer, span, a, p, article {
 	display: none;
 }
 #single_content {
-	padding-top: 148px;
+	padding-top: 152px;
 }
 
 /* bottom nev */
