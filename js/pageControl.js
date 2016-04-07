@@ -41,7 +41,7 @@ $(document).ready(function(){
 	function topImageSize(winWidth){
 		if(winWidth>1640){
 			$(".top_img_container").css("background-size", winWidth+"px" );
-		}else if(winWidth>1048){
+		}else if(winWidth>1024){
 			$(".top_img_container").css("background-size", "auto" );
 		}else if(winWidth>820){
 			$(".top_img_container").css("background-size", winWidth+"px" );

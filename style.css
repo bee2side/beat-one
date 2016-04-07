@@ -221,7 +221,7 @@ header, footer, span, a, p, article {
 	background-size: cover;
 	background-color: #eee;
 	margin-bottom: 8px;
-	padding-bottom: 45%;
+	padding-bottom: 50%;
 }
 .index_article_title {
 	display: block;
@@ -334,14 +334,16 @@ header, footer, span, a, p, article {
 }
 
 
-@media (min-width: 1064px) and (min-height: 670px) {
+@media (min-width: 1040px) and (min-height: 670px) {
 	html {
 		height: 100%;
 	}
 	/* header */
 	#header {
 		height: 60px;
-    	border-bottom: 1px solid #e5e5e5;
+	}
+	.menu_normal {
+		position: fixed;
 	}
 	.menu_normal .blogTitle {
 		width: 36px;
@@ -359,13 +361,13 @@ header, footer, span, a, p, article {
 	.menu_normal .blogTitle_content {
 		width: 36px;
 		height: 22px;
-		background: url(image/buttonsx1.png) no-repeat -70px 0;
+		background: url(image/buttonsx1.png) no-repeat 0 0;
 		background-size: 140px 400px;
 	}
 	.menu_normal .menubtn_content {
 	    width: 34px;
 	    height: 34px;
-	    background: url(image/buttonsx1.png) no-repeat 0 -250px;
+	    background: url(image/buttonsx1.png) no-repeat 0 -30px;
 	    background-size: 140px 400px;
 	    margin-top: -4px;
 	}
@@ -374,6 +376,12 @@ header, footer, span, a, p, article {
 	}
 	.menu_open {
 		padding: 18px 20px 0 20px;
+	    position: fixed;
+    	top: 0px;
+	}
+	.menu_background_color {
+		position: fixed;
+		top: 0px;
 	}
 	.top_menu {
 	    width: 984px;
@@ -407,7 +415,7 @@ header, footer, span, a, p, article {
 	}
 	/* footer */
 	#footer {
-		width: 984px;
+		width: 928px;
 		margin: 80px auto;
 		clear: left;
 		margin-bottom: 20px;
@@ -445,16 +453,16 @@ header, footer, span, a, p, article {
 
 	/* container */
 	#index_main {
-		width: 1008px;
+		width: 928px;
 		margin: auto;
 	    display: table;
 	}
 	#single_main {
-		width: 984px;
+		width: 928px;
 		margin: auto;
 	}
 	.home_article {
-		width: 480px;
+		width: 440px;
 		display: inline-block;
 		float: left;
 		margin: 0 12px;
@@ -486,13 +494,13 @@ header, footer, span, a, p, article {
 		background: url(image/buttonsx1.png) no-repeat -70px -70px;
 	}
 	.bottom_nev {
-		width: 984px;
+		width: 928px;
 	}
 	.home_article:hover + .index_article_info {
 		background-color: red;
 	}
 	#index_content {
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 	#single_content {
 		padding-top: 200px;
