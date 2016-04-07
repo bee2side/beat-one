@@ -334,7 +334,7 @@ header, footer, span, a, p, article {
 }
 
 
-@media (min-width: 1040px) and (min-height: 670px) {
+@media (min-width: 1048px) and (min-height: 670px) {
 	html {
 		height: 100%;
 	}
