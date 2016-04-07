@@ -416,7 +416,7 @@ header, footer, span, a, p, article {
 	/* footer */
 	#footer {
 		width: 928px;
-		margin: 80px auto;
+		margin: 48px auto;
 		clear: left;
 		margin-bottom: 20px;
 	}
@@ -495,6 +495,7 @@ header, footer, span, a, p, article {
 	}
 	.bottom_nev {
 		width: 928px;
+		margin-bottom: 48px;
 	}
 	.home_article:hover + .index_article_info {
 		background-color: red;
