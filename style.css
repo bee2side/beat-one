@@ -276,6 +276,7 @@ header, footer, span, a, p, article {
 	float: left;
 }
 .aligncenter {
+	margin-bottom: 8px;
 	float: left;
 }
 
@@ -557,6 +558,7 @@ header, footer, span, a, p, article {
 	}
 	.aligncenter {
 		margin: 0 auto;
+		margin-bottom: 8px;
 	}
 	.alignright {
 		margin: 0;
