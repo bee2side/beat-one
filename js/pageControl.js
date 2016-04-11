@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	//
 	// top menu on, off
 	var menuNum = 0
 	function menuOn(){
@@ -21,32 +22,47 @@ $(document).ready(function(){
 	$(".menubtn_content").click(function(){
 		menuOn();
 	});
+	//
+	// window resize, top image width change
+	var winWidth = $(document).width();
+	$(window).resize(function() {
+		winWidth = $(document).width();
+		topImageSize();
+	});
+	function topImageSize(){
+		if(winWidth>1640){
+			$(".menu_normal").css("background-size", winWidth+"px" );
+			$(".menu_normal").css('height', '200px');
+		}else if(winWidth>1032){
+			$(".menu_normal").css("background-size", "auto" );
+			$(".menu_normal").css('height', '200px');
+		}else if(winWidth>820){
+			$(".menu_normal").css("background-size", winWidth+"px" );
+			$(".menu_normal").css('height', '100px');
+		}else{
+			$(".menu_normal").css("background-size", "820px, 100px" );
+			$(".menu_normal").css('height', '100px');
+		}
+	};
+	topImageSize();
+	//
+	// top image load
+	var imgName = $(".alignnone").attr('src');
+	$(".menu_normal").css("background-image", "url("+imgName+")" );
+
+	// top image height change
+	function topImageHeight(scrollTop){
+		if(winWidth>1032){
+			$(".menu_normal").css('height', 200 - scrollTop + "px");
+		}else{
+			$(".menu_normal").css('height', '100px');
+		}
+	}
+	// scroll event
 	$(window).scroll(function(){
 		menuNum = 0;
 		menuOn();
+		var scrollTop = $(window).scrollTop();
+		topImageHeight(scrollTop);
 	});
-	// top image load
-	var imgName = $(".alignnone").attr('src');
-	var topImage = $(".top_img_container").css("background-image", "url("+imgName+")" );
-
-	// top image width set
-	var winWidth = $(document).width();
-	topImageSize(winWidth);
-
-	// top image width change
-	$( window ).resize(function() {
-		winWidth = $(document).width();
-		topImageSize(winWidth);
-	});
-	function topImageSize(winWidth){
-		if(winWidth>1640){
-			$(".top_img_container").css("background-size", winWidth+"px" );
-		}else if(winWidth>1032){
-			$(".top_img_container").css("background-size", "auto" );
-		}else if(winWidth>820){
-			$(".top_img_container").css("background-size", winWidth+"px" );
-		}else{
-			$(".top_img_container").css("background-size", "820px, 100px" );
-		}
-	};
 });

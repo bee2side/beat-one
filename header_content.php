@@ -18,6 +18,10 @@
 						<a href="<?php echo home_url(); ?>"><div class="blogTitle_content"></div></a>
 						<span class="menubtn_content"></span>
 					</div>
+					<div class="menu_normal_black">
+						<a href="<?php echo home_url(); ?>"><div class="blogTitle_content"></div></a>
+						<span class="menubtn_content"></span>
+					</div>
 					<div class="menu_open">
 						<a href="<?php echo home_url(); ?>"><div class="blogTitle"></div></a>
 						<span class="menubtn"></span>

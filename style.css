@@ -70,11 +70,15 @@ header, footer, span, a, p, article {
 /* header */
 .menu_normal {
 	padding: 15px 10px 0 10px;
-	height: 48px;
+	height: 100px;
 	position: absolute;
     width: 100%;
     top: 0;
     z-index: 1;
+    background-position: center;
+}
+.menu_normal_black {
+	display: none;
 }
 .menu_normal .blogTitle {
 	width: 24px;
@@ -345,7 +349,16 @@ header, footer, span, a, p, article {
 		height: 60px;
 	}
 	.menu_normal {
+		height: 200px;
 		position: fixed;
+		overflow: hidden;
+	}
+	.menu_normal_black {
+		width: 100%;
+		height: 200px;
+		padding: 0 20px;
+		position: fixed;
+		display: block;
 	}
 	.menu_normal .blogTitle {
 		width: 36px;
@@ -363,18 +376,36 @@ header, footer, span, a, p, article {
 	.menu_normal .blogTitle_content {
 		width: 36px;
 		height: 22px;
-		background: url(image/buttonsx1.png) no-repeat 0 0;
+		background: url(image/buttonsx1.png) no-repeat -70px 0;
 		background-size: 140px 400px;
+		margin-top: 18px;
 	}
 	.menu_normal .menubtn_content {
 	    width: 34px;
 	    height: 34px;
+	    background: url(image/buttonsx1.png) no-repeat 0 -250px;
+	    background-size: 140px 400px;
+	    float: right;
+	    margin-top: 14px;
+	}
+	.menu_normal_black .blogTitle_content {
+		width: 36px;
+		height: 22px;
+		background: url(image/buttonsx1.png) no-repeat 0 0;
+		background-size: 140px 400px;
+		float: left;
+		margin-top: 18px;
+	}
+	.menu_normal_black .menubtn_content {
+	    width: 34px;
+	    height: 34px;
 	    background: url(image/buttonsx1.png) no-repeat 0 -30px;
 	    background-size: 140px 400px;
-	    margin-top: -4px;
+	    float: right;
+	    margin-top: 14px;
 	}
 	.menu_normal {
-		padding: 18px 20px 0 20px;
+		padding: 0 20px 0;
 	}
 	.menu_open {
 		padding: 18px 20px 0 20px;

@@ -8,7 +8,6 @@
 						<?php the_title(); ?>
 					</a>
 				</span>
-				<div class="top_img_container"></div>
 				<div class="single_article_content">
 					<?php the_content(); ?>
 				</div>
