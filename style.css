@@ -274,10 +274,11 @@ header, footer, span, a, p, article {
 .single_article_content .alignleft {
 	padding: 0 10px;
 	float: left;
+	margin-bottom: 8px;
 }
 .aligncenter {
-	margin-bottom: 8px;
 	float: left;
+	margin-bottom: 8px;
 }
 
 /* top image */
@@ -554,6 +555,7 @@ header, footer, span, a, p, article {
 	}
 	.alignleft {
 		margin: 0;
+		margin-bottom: 8px;
 		float: left;
 	}
 	.aligncenter {
