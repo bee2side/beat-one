@@ -360,7 +360,7 @@ header, footer, span, a, p, article {
 		padding: 0 20px;
 		position: fixed;
 		display: block;
-		z-index: 10;
+		z-index: 2;
 		overflow: hidden;
 	}
 	.menu_normal .blogTitle {
