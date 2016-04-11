@@ -34,10 +34,10 @@ $(document).ready(function(){
 	function topImageSize(){
 		if(windowWidth>1640){
 			$(".menu_normal_white").css("background-size", windowWidth+"px" );
-			$(".menu_normal_white").css('height', $(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px"););
+			$(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px");
 		}else if(windowWidth>1032){
 			$(".menu_normal_white").css("background-size", "auto" );
-			$(".menu_normal_white").css('height', $(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px"););
+			$(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px");
 		}else if(windowWidth>820){
 			$(".menu_normal_white").css("background-size", windowWidth+"px" );
 			$(".menu_normal_white").css('height', '100px');
@@ -64,6 +64,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		menuNum = 0;
 		menuOn();
-		topImageHeight();
+		var scrollTop = $(window).scrollTop();
+		topImageHeight(scrollTop);
 	});
 });
