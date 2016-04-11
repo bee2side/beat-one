@@ -24,20 +24,22 @@ $(document).ready(function(){
 	});
 	//
 	// window resize, top image width change
-	var winWidth = $(document).width();
+	var windowWidth = $(document).width();
+	//
+	// window resize
 	$(window).resize(function() {
-		winWidth = $(document).width();
+		windowWidth = $(document).width();
 		topImageSize();
 	});
 	function topImageSize(){
-		if(winWidth>1640){
-			$(".menu_normal_white").css("background-size", winWidth+"px" );
-			$(".menu_normal_white").css('height', '200px');
-		}else if(winWidth>1032){
+		if(windowWidth>1640){
+			$(".menu_normal_white").css("background-size", windowWidth+"px" );
+			$(".menu_normal_white").css('height', $(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px"););
+		}else if(windowWidth>1032){
 			$(".menu_normal_white").css("background-size", "auto" );
-			$(".menu_normal_white").css('height', '200px');
-		}else if(winWidth>820){
-			$(".menu_normal_white").css("background-size", winWidth+"px" );
+			$(".menu_normal_white").css('height', $(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px"););
+		}else if(windowWidth>820){
+			$(".menu_normal_white").css("background-size", windowWidth+"px" );
 			$(".menu_normal_white").css('height', '100px');
 		}else{
 			$(".menu_normal_white").css("background-size", "820px, 100px" );
@@ -52,8 +54,8 @@ $(document).ready(function(){
 
 	// top image height change
 	function topImageHeight(scrollTop){
-		if(winWidth>1032){
-			$(".menu_normal_white").css('height', 200 - scrollTop + "px");
+		if(windowWidth>1032){
+			$(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px");
 		}else{
 			$(".menu_normal_white").css('height', '100px');
 		}
@@ -62,7 +64,6 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		menuNum = 0;
 		menuOn();
-		var scrollTop = $(window).scrollTop();
-		topImageHeight(scrollTop);
+		topImageHeight();
 	});
 });
