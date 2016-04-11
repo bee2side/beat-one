@@ -18,7 +18,7 @@
 						<a href="<?php echo home_url(); ?>"><div class="blogTitle_content"></div></a>
 						<span class="menubtn_content"></span>
 					</div>
-					<div class="menu_normal_black">
+					<div class="menu_normal_white">
 						<a href="<?php echo home_url(); ?>"><div class="blogTitle_content"></div></a>
 						<span class="menubtn_content"></span>
 					</div>

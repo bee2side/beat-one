@@ -31,31 +31,31 @@ $(document).ready(function(){
 	});
 	function topImageSize(){
 		if(winWidth>1640){
-			$(".menu_normal").css("background-size", winWidth+"px" );
-			$(".menu_normal").css('height', '200px');
+			$(".menu_normal_white").css("background-size", winWidth+"px" );
+			$(".menu_normal_white").css('height', '200px');
 		}else if(winWidth>1032){
-			$(".menu_normal").css("background-size", "auto" );
-			$(".menu_normal").css('height', '200px');
+			$(".menu_normal_white").css("background-size", "auto" );
+			$(".menu_normal_white").css('height', '200px');
 		}else if(winWidth>820){
-			$(".menu_normal").css("background-size", winWidth+"px" );
-			$(".menu_normal").css('height', '100px');
+			$(".menu_normal_white").css("background-size", winWidth+"px" );
+			$(".menu_normal_white").css('height', '100px');
 		}else{
-			$(".menu_normal").css("background-size", "820px, 100px" );
-			$(".menu_normal").css('height', '100px');
+			$(".menu_normal_white").css("background-size", "820px, 100px" );
+			$(".menu_normal_white").css('height', '100px');
 		}
 	};
 	topImageSize();
 	//
 	// top image load
 	var imgName = $(".alignnone").attr('src');
-	$(".menu_normal").css("background-image", "url("+imgName+")" );
+	$(".menu_normal_white").css("background-image", "url("+imgName+")" );
 
 	// top image height change
 	function topImageHeight(scrollTop){
 		if(winWidth>1032){
-			$(".menu_normal").css('height', 200 - scrollTop + "px");
+			$(".menu_normal_white").css('height', 200 - scrollTop + "px");
 		}else{
-			$(".menu_normal").css('height', '100px');
+			$(".menu_normal_white").css('height', '100px');
 		}
 	}
 	// scroll event
