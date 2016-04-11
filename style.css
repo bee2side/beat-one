@@ -441,15 +441,16 @@ header, footer, span, a, p, article {
 		float: right;
 	}
 	.top_menu ul li {
-		padding-right: 30px;
+		padding-right: 60px;
 		padding-top: 16px;
 	}
 	.top_menu a {
 		font-size: 48px;
-		font-weight: 600;
+		font-weight: 400;
 	}
 	.top_menu .widgettitle {
-		font-size: 12px;
+		font-size: 14px;
+  		font-weight: 400;
 	}
 	/* footer */
 	#footer {
