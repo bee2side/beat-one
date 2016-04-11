@@ -23,23 +23,24 @@ $(document).ready(function(){
 		menuOn();
 	});
 	//
-	// window resize, top image width change
-	var windowWidth = $(document).width();
+	// menu_normal_white height value
+	var mn_height = 200;
 	//
 	// window resize
 	$(window).resize(function() {
-		windowWidth = $(document).width();
+
 		topImageSize();
 	});
 	function topImageSize(){
-		if(windowWidth>1640){
-			$(".menu_normal_white").css("background-size", windowWidth+"px" );
-			$(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px");
-		}else if(windowWidth>1032){
+		var w_width_a = $(document).width();
+		if(w_width_a>1640){
+			$(".menu_normal_white").css("background-size", w_width_a+"px" );
+			$(".menu_normal_white").css('height', mn_height - $(window).scrollTop() + "px");
+		}else if(w_width_a>1032){
 			$(".menu_normal_white").css("background-size", "auto" );
-			$(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px");
-		}else if(windowWidth>820){
-			$(".menu_normal_white").css("background-size", windowWidth+"px" );
+			$(".menu_normal_white").css('height', mn_height - $(window).scrollTop() + "px");
+		}else if(w_width_a>820){
+			$(".menu_normal_white").css("background-size", w_width_a+"px" );
 			$(".menu_normal_white").css('height', '100px');
 		}else{
 			$(".menu_normal_white").css("background-size", "820px, 100px" );
@@ -51,20 +52,25 @@ $(document).ready(function(){
 	// top image load
 	var imgName = $(".alignnone").attr('src');
 	$(".menu_normal_white").css("background-image", "url("+imgName+")" );
-
+	//
 	// top image height change
-	function topImageHeight(scrollTop){
-		if(windowWidth>1032){
-			$(".menu_normal_white").css('height', 200 - $(window).scrollTop() + "px");
+	function topImageHeight(scrollTop, w_width_b){
+		if(w_width_b>1032){
+			$(".menu_normal_white").css('height', mn_height - scrollTop + "px");
 		}else{
 			$(".menu_normal_white").css('height', '100px');
 		}
 	}
+	//
 	// scroll event
 	$(window).scroll(function(){
+		// top menu close for scroll
 		menuNum = 0;
 		menuOn();
-		var scrollTop = $(window).scrollTop();
-		topImageHeight(scrollTop);
+		// top image height value
+		var scrollTop = $(window).scrollTop(),
+		w_width_b = $(document).width();
+
+		topImageHeight(scrollTop, w_width_b);
 	});
 });
