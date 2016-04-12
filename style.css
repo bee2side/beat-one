@@ -259,11 +259,20 @@ header, footer, span, a, p, article {
 .single_article_title {
 	padding: 0 10px;
 	display: block;
-	margin-bottom: 12px;
+	/*margin-bottom: 12px;*/
 }
 .single_article_title a {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 200;
+}
+.single_article_info {
+	padding: 0 10px;
+	display: block;
+	margin-bottom: 20px;
+}
+.single_article_info a {
+	font-size: 12px;
+	color: #999;
 }
 .single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignright {
 	width: 100%;
@@ -509,7 +518,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_title {
 		padding: 0;
-		font-size: 24px;
+		font-size: 26px;
 		line-height: 1.1;
 		margin-bottom: 8px;
 	}
@@ -552,12 +561,19 @@ header, footer, span, a, p, article {
 		padding: 0;
 	}
 	.single_article_title {
-	    margin-bottom: 20px;
+	    /*margin-bottom: 20px;*/
 	}
 	.single_article_title > a {
-		font-size: 40px;
+		font-size: 44px;
 		font-weight: 300;
 		text-decoration: none;
+	}
+	.single_article_info a {
+		font-size: 16px;
+		color: #999;
+	}
+	.single_article_info {
+		margin-bottom: 48px;
 	}
 	.bottom_nev .bottom_next .bottom_next_thumb, .bottom_nev .bottom_prev .bottom_prev_thumb {
 		width: 180px;
