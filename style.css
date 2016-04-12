@@ -362,7 +362,7 @@ header, footer, span, a, p, article {
 		height: 60px;
 	}
 	.menu_normal {
-		height: 200px;
+		height: 64px;
 		position: fixed;
 	}
 	.menu_normal_white {
