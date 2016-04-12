@@ -283,6 +283,7 @@ header, footer, span, a, p, article {
 	font-size: 15px;
 	padding: 0 10px;
 	line-height: 1.4;
+	word-break: normal;
 }
 .single_article_content .img_container {
 	padding: 0;
