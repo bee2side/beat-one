@@ -573,6 +573,7 @@ header, footer, span, a, p, article {
 		color: #999;
 	}
 	.single_article_info {
+		padding: 0;
 		margin-bottom: 48px;
 	}
 	.bottom_nev .bottom_next .bottom_next_thumb, .bottom_nev .bottom_prev .bottom_prev_thumb {
