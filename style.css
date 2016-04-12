@@ -284,6 +284,7 @@ header, footer, span, a, p, article {
 	padding: 0 10px;
 	line-height: 1.4;
 	word-break: normal;
+	word-spacing: 1px;
 }
 .single_article_content .img_container {
 	padding: 0;
@@ -558,11 +559,11 @@ header, footer, span, a, p, article {
 	}
 	.single_article_content > p, .single_article_content > a {
     	font-size: 17px;
+    	word-spacing: 1px;
 	}
 	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignleft {
 		padding: 0;
 		line-height: 1.5;
-		word-spacing: 1px;
 	}
 	.single_article_title {
 	    /*margin-bottom: 20px;*/
