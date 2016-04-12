@@ -269,6 +269,7 @@ header, footer, span, a, p, article {
 	padding: 0 10px;
 	display: block;
 	margin-bottom: 20px;
+	line-height: 1;
 }
 .single_article_info a {
 	font-size: 12px;
@@ -281,7 +282,7 @@ header, footer, span, a, p, article {
 .single_article_content > p, .single_article_content > a  {
 	font-size: 15px;
 	padding: 0 10px;
-	line-height: 1.3;
+	line-height: 1.4;
 }
 .single_article_content .img_container {
 	padding: 0;
