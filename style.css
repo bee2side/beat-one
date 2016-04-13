@@ -301,6 +301,10 @@ header, footer, span, a, p, article {
 .single_article_content p, .single_article_content div {
 	margin-bottom: 24px;
 }
+.single_article_content h2 {
+	margin-bottom: 12px;
+	padding: 0 10px;
+}
 
 /* top image */
 .top_img_container {
