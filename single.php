@@ -38,7 +38,7 @@
         </div>
     </div>
 <script>
-	$(".single_article_content p:has(img)").addClass("img_container");
+	// $(".single_article_content p:has(img)").addClass("img_container");
 </script>
 </div>
 <?php get_footer(); ?>
