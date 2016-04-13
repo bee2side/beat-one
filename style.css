@@ -614,12 +614,12 @@ header, footer, span, a, p, article {
 	}
 	.alignleft {
 		margin: 0;
-		margin-bottom: 8px;
+		margin-bottom: 12px;
 		float: left;
 	}
 	.aligncenter {
 		margin: 0 auto;
-		margin-bottom: 8px;
+		margin-bottom: 12px;
 	}
 	.alignright {
 		margin: 0;
