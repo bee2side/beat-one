@@ -298,7 +298,7 @@ header, footer, span, a, p, article {
 	float: left;
 	margin-bottom: 8px;
 }
-.single_article_content p {
+.single_article_content p, .single_article_content div {
 	margin-bottom: 24px;
 }
 
