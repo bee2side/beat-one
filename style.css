@@ -287,7 +287,7 @@ header, footer, span, a, p, article {
 	word-spacing: 1px;
 }
 .single_article_content .img_container {
-	padding: 0;
+	/*padding: 0;*/
 }
 .single_article_content .alignleft {
 	padding: 0 10px;
