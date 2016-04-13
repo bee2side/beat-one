@@ -298,6 +298,9 @@ header, footer, span, a, p, article {
 	float: left;
 	margin-bottom: 8px;
 }
+.single_article_content p {
+	margin-bottom: 24px;
+}
 
 /* top image */
 .top_img_container {
