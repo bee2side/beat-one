@@ -27,6 +27,7 @@
 		return '...&nbsp;&nbsp;&nbsp;<a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('more', 'your-text-domain') . '</a>';
 	}
 	add_filter('excerpt_more', 'new_excerpt_more');
+	add_post_type_support( 'post', 'page-attributes' );
 	//
 	// wp_nav_menu( array(
 	// 	'theme_location' => 'main_menu',
