@@ -28,6 +28,7 @@
 	}
 	add_filter('excerpt_more', 'new_excerpt_more');
 	add_post_type_support( 'post', 'page-attributes' );
+	add_filter( 'simple_page_ordering_limit', function($number) { return 5; } );
 	//
 	// wp_nav_menu( array(
 	// 	'theme_location' => 'main_menu',
