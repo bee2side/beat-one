@@ -50,7 +50,7 @@ $(document).ready(function(){
 	topImageSize();
 	//
 	// top image load
-	var imgName = $(".alignnone").attr('src');
+	var imgName = $(".alignright").attr('src');
 	$(".menu_normal_white").css("background-image", "url("+imgName+")" );
 	//
 	// top image height change
