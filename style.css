@@ -362,7 +362,7 @@ header, footer, span, a, p, article {
 }
 
 
-@media (min-width: 1048px) and (min-height: 670px) {
+@media (min-width: 1024px) and (min-height: 670px) {
 	html {
 		height: 100%;
 	}
@@ -474,7 +474,7 @@ header, footer, span, a, p, article {
 	}
 	/* footer */
 	#footer {
-		width: 928px;
+		width: 900px;
 		margin: 48px auto;
 		clear: left;
 		margin-bottom: 20px;
@@ -512,19 +512,19 @@ header, footer, span, a, p, article {
 
 	/* container */
 	#index_main {
-		width: 928px;
+		width: 920px;
 		margin: auto;
 	    display: table;
 	}
 	#single_main {
-		width: 928px;
+		width: 900px;
 		margin: auto;
 	}
 	.home_article {
 		width: 440px;
 		display: inline-block;
 		float: left;
-		margin: 0 12px;
+		margin: 0 10px;
 		height: 340px;
 	}
 	.index_article_title {
@@ -553,7 +553,7 @@ header, footer, span, a, p, article {
 		background: url(image/buttonsx1.png) no-repeat -70px -70px;
 	}
 	.bottom_nev {
-		width: 928px;
+		width: 900px;
 		margin-bottom: 48px;
 	}
 	.home_article:hover + .index_article_info {

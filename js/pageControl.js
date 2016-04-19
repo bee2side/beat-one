@@ -36,7 +36,7 @@ $(document).ready(function(){
 		if(w_width_a>1640){
 			$(".menu_normal_white").css("background-size", w_width_a+"px" );
 			$(".menu_normal_white").css('height', mn_height - $(window).scrollTop() + "px");
-		}else if(w_width_a>1032){
+		}else if(w_width_a>1008){
 			$(".menu_normal_white").css("background-size", "auto" );
 			$(".menu_normal_white").css('height', mn_height - $(window).scrollTop() + "px");
 		}else if(w_width_a>820){
@@ -55,7 +55,7 @@ $(document).ready(function(){
 	//
 	// top image height change
 	function topImageHeight(scrollTop, w_width_b){
-		if(w_width_b>1032){
+		if(w_width_b>1008){
 			$(".menu_normal_white").css('height', mn_height - scrollTop + "px");
 		}else{
 			$(".menu_normal_white").css('height', '100px');
