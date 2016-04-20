@@ -641,6 +641,3 @@ header, footer, span, a, p, article {
 	.single_article_content h4 {
 		font-size: 26px;
 	}
-	.single_article_content p, .single_article_content div {
-		margin-bottom: 48px;
-	}
