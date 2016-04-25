@@ -544,6 +544,9 @@ header, footer, span, a, p, article {
 	.index_article_thumb {
 		margin-bottom: 16px;
 	}
+	.index_article_thumb:hover {
+		opacity: 0.9;
+	}
 	#wp-load-more-btn {
 		width: 36px;
 		height: 36px;
