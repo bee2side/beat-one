@@ -616,6 +616,10 @@ header, footer, span, a, p, article {
 		line-height: 1.2;
 		position: absolute;
 	}
+	.bottom_nev:hover .bottom_next:hover {
+		text-decoration: none;
+		opacity: 0.8;
+	}
 	/* top image */
 	.top_img_container {
 		position: absolute;
