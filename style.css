@@ -616,8 +616,10 @@ header, footer, span, a, p, article {
 		line-height: 1.2;
 		position: absolute;
 	}
-	.bottom_nev:hover .bottom_next:hover {
+	.bottom_nev div a, .bottom_next div a {
 		text-decoration: none;
+	}
+	.bottom_nev:hover .bottom_next:hover {
 		opacity: 0.8;
 	}
 	/* top image */
