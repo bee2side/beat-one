@@ -549,7 +549,7 @@ header, footer, span, a, p, article {
 		margin-bottom: 16px;
 	}
 	.index_article_thumb:hover {
-		opacity: 0.7;
+		opacity: 0.8;
 	}
 	#wp-load-more-btn {
 		width: 36px;
