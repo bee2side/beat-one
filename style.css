@@ -515,7 +515,7 @@ header, footer, span, a, p, article {
 
 	/* container */
 	#index_main {
-		width: 920px;
+		width: 900px;
 		margin: auto;
 	    display: table;
 	}
@@ -524,11 +524,10 @@ header, footer, span, a, p, article {
 		margin: auto;
 	}
 	.home_article {
-		width: 440px;
+		width: 900px;
 		display: inline-block;
 		float: left;
-		margin: 0 10px;
-		height: 340px;
+		height: 360px;
 	}
 	.index_article_title {
 		padding: 0;
@@ -548,6 +547,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_thumb {
 		margin-bottom: 16px;
+		padding-bottom: 35%;
 	}
 	.index_article_thumb:hover {
 		opacity: 0.8;
