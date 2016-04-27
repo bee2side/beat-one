@@ -224,7 +224,7 @@ header, footer, span, a, p, article {
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 0;
-	background-position:center top;
+	background-position:center center;
 	background-size: cover;
 	background-color: #eee;
 	margin-bottom: 8px;
@@ -547,7 +547,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_thumb {
 		margin-bottom: 16px;
-		padding-bottom: 35%;
+		padding-bottom: 30%;
 	}
 	.index_article_thumb:hover {
 		opacity: 0.8;
