@@ -553,7 +553,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_thumb {
 		margin-bottom: 12px;
-		padding-bottom: 28%;
+		padding-bottom: 25%;
 		-webkit-transition: all 0.5s;
 	}
 	.index_article_thumb:hover {
