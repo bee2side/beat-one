@@ -551,11 +551,11 @@ header, footer, span, a, p, article {
 		margin-bottom: 12px;
 		padding-bottom: 28%;
 		-webkit-transition: all 0.5s;
-		-webkit-filter: blur(3px);
+		-webkit-filter: grayscale(50%);
 	}
 	.index_article_thumb:hover {
 		-webkit-filter:none;
-		-webkit-filter: blur(0);
+		-webkit-filter: grayscale(0);
 	}
 	#wp-load-more-btn {
 		width: 36px;
