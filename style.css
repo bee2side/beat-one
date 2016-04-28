@@ -531,7 +531,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_title {
 		padding: 0;
-		font-size: 24px;
+		font-size: 26px;
 		line-height: 1.1;
 		margin-bottom: 8px;
 	    display: inline-block;
@@ -543,11 +543,12 @@ header, footer, span, a, p, article {
 		padding: 0;
 	    float: right;
 	    color: #999;
+	    margin-top: 4px;
 	}
 	.index_article_info a {
 		font-size: 14px;
 		color: #999;
-		margin-left: 6px;
+		margin-left: 8px;
 	}
 	.index_article_thumb {
 		margin-bottom: 12px;
