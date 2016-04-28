@@ -554,7 +554,7 @@ header, footer, span, a, p, article {
 	}
 	.index_article_thumb:hover {
 		-webkit-filter:none;
-		-webkit-filter: brightness(0.9);
+		-webkit-filter: brightness(0.8);
 	}
 	#wp-load-more-btn {
 		width: 36px;
