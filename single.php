@@ -9,7 +9,7 @@
 					</a>
 				</span>
 				<span class="single_article_info">
-					<?php the_category(',&nbsp;&nbsp;'); ?>
+					<?php the_category(',                 '); ?>
 				</span>
 				<div class="single_article_content">
 					<?php the_content(); ?>
