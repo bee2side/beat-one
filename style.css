@@ -603,10 +603,10 @@ header, footer, span, a, p, article {
 		padding: 0;
 		margin-bottom: 48px;
 		vertical-align: text-top;
+		color: #999;
 	}
 	.single_article_info li {
 		display: inline-block;
-		color: #999;
 	}
 	.bottom_nev .bottom_next .bottom_next_thumb, .bottom_nev .bottom_prev .bottom_prev_thumb {
 		width: 180px;
