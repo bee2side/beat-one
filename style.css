@@ -527,7 +527,7 @@ header, footer, span, a, p, article {
 		width: 900px;
 		display: inline-block;
 		float: left;
-		height: 340px;
+		height: 320px;
 	}
 	.index_article_title {
 		padding: 0;
@@ -549,8 +549,8 @@ header, footer, span, a, p, article {
 		color: #999;
 	}
 	.index_article_thumb {
-		margin-bottom: 16px;
-		padding-bottom: 26%;
+		margin-bottom: 12px;
+		padding-bottom: 28%;
 	}
 	.index_article_thumb:hover {
 		opacity: 0.8;
