@@ -12,7 +12,7 @@
 					<?php the_title(); ?>
 				</a>
 				<span class="index_article_info">
-					<?php the_category('&nbsp;&nbsp;&nbsp;∙&nbsp;&nbsp;&nbsp;'); ?>
+					<?php the_category('&nbsp;&nbsp;&nbsp;&nbsp;∙&nbsp;&nbsp;&nbsp;&nbsp;'); ?>
 				</span>
 			</article>
 		<?php endwhile; else: ?>
