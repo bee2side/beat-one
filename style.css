@@ -597,6 +597,7 @@ header, footer, span, a, p, article {
 	.single_article_info a {
 		font-size: 16px;
 		color: #999;
+	    vertical-align: 2px;
 	}
 	.single_article_info {
 		padding: 0;
