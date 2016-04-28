@@ -529,7 +529,8 @@ header, footer, span, a, p, article {
 		width: 900px;
 		display: inline-block;
 		float: left;
-		height: 328px;
+		height: 344px;
+		margin-bottom: 0;
 	}
 	.index_article_title {
 		padding: 0;
