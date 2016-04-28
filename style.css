@@ -538,7 +538,6 @@ header, footer, span, a, p, article {
 	}
 	.index_article_title:hover {
 		text-decoration: none;
-		opacity: 0.8;
 	}
 	.index_article_info {
 		padding: 0;
