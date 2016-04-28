@@ -590,9 +590,6 @@ header, footer, span, a, p, article {
 		padding: 0;
 		line-height: 1.5;
 	}
-	.single_article_title {
-	    /*margin-bottom: 20px;*/
-	}
 	.single_article_title > a {
 		font-size: 44px;
 		font-weight: 300;
@@ -605,6 +602,10 @@ header, footer, span, a, p, article {
 	.single_article_info {
 		padding: 0;
 		margin-bottom: 48px;
+	}
+	.single_article_info li {
+		display: inline-block;
+		margin-right: 12px;
 	}
 	.bottom_nev .bottom_next .bottom_next_thumb, .bottom_nev .bottom_prev .bottom_prev_thumb {
 		width: 180px;
