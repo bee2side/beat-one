@@ -553,7 +553,7 @@ header, footer, span, a, p, article {
 		padding-bottom: 28%;
 	}
 	.index_article_thumb:hover {
-		-webkit-filter: brightness(0.25);
+		-webkit-filter: brightness(0.9);
 	}
 	#wp-load-more-btn {
 		width: 36px;
