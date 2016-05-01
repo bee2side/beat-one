@@ -71,7 +71,7 @@ header, footer, span, a, p, article {
 /* header */
 .menu_normal {
 	padding: 15px 10px 0 10px;
-	height: 100px;
+	/*height: 100px;*/
 	position: absolute;
     width: 100%;
     top: 0;
@@ -215,10 +215,10 @@ header, footer, span, a, p, article {
 
 /* contents */
 #index_content {
-	padding-top: 48px;
+	padding-top: 64px;
 }
 .home_article{
-	margin-bottom: 28px;
+	margin-bottom: 36px;
 }
 .index_article_thumb {
 	background-repeat: no-repeat;
@@ -235,7 +235,7 @@ header, footer, span, a, p, article {
 	display: block;
 	font-size: 20px;
 	padding: 0 10px;
-	margin-bottom: 2px;
+	margin-bottom: 6px;
 	line-height: 1.2;
 }
 .index_article_info {
