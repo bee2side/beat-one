@@ -161,7 +161,7 @@ header, footer, span, a, p, article {
 	padding-right: 60px;
 }
 .top_menu {
-	margin-top: 52px;
+	margin-top: 36px;
 }
 .top_menu .widgettitle {
 	color: #777;
@@ -171,7 +171,7 @@ header, footer, span, a, p, article {
 .top_menu ul li {
 	display: inline-block;
 	padding-right: 60px;
-	padding-bottom: 8px;
+	padding-bottom: 20px;
 }
 /* footer */
 #footer {
