@@ -557,12 +557,7 @@ header, footer, span, a, p, article {
 	.index_article_thumb {
 		margin-bottom: 12px;
 		padding-bottom: 25%;
-		transition: background-size 2s ease-in;
-		-moz-transition: background-size 2s ease-in;
-		-ms-transition: background-size 2s ease-in;
-		-o-transition: background-size 2s ease-in;
-		-webkit-transition: background-size 2s ease-in;
-		/*-webkit-transition: all 0.5s;*/
+		-webkit-transition: all 0.5s;
 	}
 	.index_article_thumb:hover {
 		-webkit-filter: brightness(0.80);
