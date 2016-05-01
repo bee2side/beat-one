@@ -579,7 +579,7 @@ header, footer, span, a, p, article {
 	}
 	.bottom_nev {
 		width: 900px;
-		margin-bottom: 48px;
+		margin-bottom: 88px;
 	}
 	.home_article:hover + .index_article_info {
 		background-color: red;
