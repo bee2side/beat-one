@@ -277,7 +277,7 @@ header, footer, span, a, p, article {
 	margin-bottom: 22px;
 	line-height: 1;
 	color: #999;
-	letter-spacing: -1px;
+	letter-spacing: -2px;
 }
 .single_article_info a {
 	font-size: 12px;
