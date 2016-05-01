@@ -466,8 +466,8 @@ header, footer, span, a, p, article {
 		float: right;
 	}
 	.top_menu ul li {
-		padding-right: 60px;
-		padding-top: 16px;
+		padding-right: 112px;
+		padding-top: 28px;
 	}
 	.top_menu a {
 		font-size: 120px;
