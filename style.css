@@ -277,11 +277,13 @@ header, footer, span, a, p, article {
 	margin-bottom: 22px;
 	line-height: 1;
 	color: #999;
+	letter-spacing: -1px;
 }
 .single_article_info a {
 	font-size: 12px;
 	color: #666;
 	vertical-align: 4px;
+	letter-spacing: 0;
 }
 .single_article_content .alignleft, .single_article_content .aligncenter, .single_article_content .alignnone {
 	width: 100%;
@@ -614,6 +616,7 @@ header, footer, span, a, p, article {
 		margin-bottom: 48px;
 		vertical-align: text-top;
 		color: #999;
+		letter-spacing: 0;
 	}
 	.single_article_info li {
 		display: inline-block;
