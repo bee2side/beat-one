@@ -151,7 +151,8 @@ header, footer, span, a, p, article {
 }
 .top_menu a {
 	color: #fff;
-	font-size: 52px;
+	font-size: 48px;
+	font-weight: 500;
 }
 .menu_open > a {
 	font-size: 0;
