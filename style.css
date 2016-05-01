@@ -560,9 +560,9 @@ header, footer, span, a, p, article {
 		-webkit-transition: all 0.5s;
 	}
 	.index_article_thumb:hover {
-		-webkit-transition: all 0.5s;
-		-webkit-background-size: 1200px auto;
 		-webkit-filter: brightness(0.80);
+		-webkit-transition: background-size 2s ease-in;
+		-webkit-background-size: 1200px auto;
 	}
 	#wp-load-more-btn {
 		width: 36px;
