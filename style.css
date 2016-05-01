@@ -561,7 +561,6 @@ header, footer, span, a, p, article {
 	}
 	.index_article_thumb:hover {
 		-webkit-filter: brightness(0.80);
-		-webkit-background-size: 1200px auto;
 	}
 	#wp-load-more-btn {
 		width: 36px;
