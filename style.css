@@ -151,7 +151,7 @@ header, footer, span, a, p, article {
 }
 .top_menu a {
 	color: #fff;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: 700;
 }
 .menu_open > a {
@@ -172,7 +172,7 @@ header, footer, span, a, p, article {
 .top_menu ul li {
 	display: inline-block;
 	padding-right: 52px;
-	padding-bottom: 32px;
+	padding-bottom: 36px;
     margin-left: 30px;
 }
 /* footer */
