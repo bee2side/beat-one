@@ -166,11 +166,12 @@ header, footer, span, a, p, article {
 .top_menu .widgettitle {
 	color: #777;
 	font-size: 10px;
+	display: none;
 }
 .top_menu ul li {
 	display: inline-block;
 	padding-right: 30px;
-	padding-top: 12px;
+	padding-bottom: 12px;
 }
 /* footer */
 #footer {
