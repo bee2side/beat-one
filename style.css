@@ -245,6 +245,7 @@ header, footer, span, a, p, article {
 	padding: 0 10px;
 	display: block;
 	font-size: 12px;
+	color: #999;
 }
 .index_article_info a{
 	font-size: 11px;
