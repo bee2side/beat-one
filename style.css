@@ -561,6 +561,11 @@ header, footer, span, a, p, article {
 	}
 	.index_article_thumb:hover {
 		transition: background-size 2s ease-in;
+		-moz-transition: background-size 2s ease-in;
+		-ms-transition: background-size 2s ease-in;
+		-o-transition: background-size 2s ease-in;
+		-webkit-transition: background-size 2s ease-in;
+		/**/
 		-webkit-filter: brightness(0.80);
 		-webkit-transition: background-size 2s ease-in;
 		-webkit-background-size: 1200px auto;
