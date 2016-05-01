@@ -545,6 +545,7 @@ header, footer, span, a, p, article {
 		line-height: 1.1;
 		margin-bottom: 8px;
 	    display: inline-block;
+	    width: 640px;
 	}
 	.index_article_title:hover {
 		text-decoration: none;
