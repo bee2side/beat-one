@@ -595,7 +595,7 @@ header, footer, span, a, p, article {
     	word-spacing: 1px;
 	}
 	.single_article_title {
-		margin-bottom: 4px;
+		margin-bottom: 8px;
 	}
 	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignnone {
 		padding: 0;
