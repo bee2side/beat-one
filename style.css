@@ -307,7 +307,7 @@ header, footer, span, a, p, article {
 .single_article_content > p, .single_article_content > a  {
 	font-size: 13px;
 	padding: 0 10px;
-	line-height: 1.8;
+	line-height: 1.7;
 	word-break: normal;
 	word-spacing: 1px;
 	font-family: "Noto Sans";
