@@ -273,7 +273,7 @@ header, footer, span, a, p, article {
 }
 .single_article_title a {
 	font-size: 23px;
-	font-weight: 400;
+	font-weight: 200;
 }
 .single_article_info {
 	padding: 0 10px;
