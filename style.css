@@ -611,7 +611,7 @@ header, footer, span, a, p, article {
 	}
 	.single_article_content > p, .single_article_content > a {
     	font-size: 15px;
-    	word-spacing: 0;
+    	word-spacing: 2px;
     	font-family: "Noto Sans"
     	font-weight: 200;
 	}
