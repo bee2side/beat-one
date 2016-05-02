@@ -596,9 +596,10 @@ header, footer, span, a, p, article {
 		padding-top: 200px;
 	}
 	.single_article_content > p, .single_article_content > a {
-    	font-size: 17px;
+    	font-size: 16px;
     	word-spacing: 1px;
     	font-family: "Noto Sans"
+    	font-weight: 200;
 	}
 	.single_article_title {
 		margin-bottom: 8px;
