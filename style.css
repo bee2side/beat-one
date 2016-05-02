@@ -610,7 +610,7 @@ header, footer, span, a, p, article {
 		padding-top: 200px;
 	}
 	.single_article_content > p, .single_article_content > a {
-    	font-size: 16px;
+    	font-size: 15px;
     	word-spacing: 0;
     	font-family: "Noto Sans"
     	font-weight: 200;
@@ -620,7 +620,7 @@ header, footer, span, a, p, article {
 	}
 	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignnone {
 		padding: 0;
-		line-height: 1.8;
+		line-height: 1.75;
 	}
 	.single_article_title > a {
 		font-size: 44px;
