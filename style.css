@@ -37,6 +37,7 @@
 @font-face {
   font-family: "Noto Sans";
   font-weight: normal;
+  font-style: normal;
   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
   url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
   url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
@@ -602,7 +603,7 @@ header, footer, span, a, p, article {
 	}
 	.single_article_content > p, .single_article_content > a {
     	font-size: 16px;
-    	word-spacing: 1px;
+    	word-spacing: 0;
     	font-family: "Noto Sans"
     	font-weight: 200;
 	}
