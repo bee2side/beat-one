@@ -299,6 +299,8 @@ header, footer, span, a, p, article {
 	line-height: 1.4;
 	word-break: normal;
 	word-spacing: 1px;
+	font-family: "Noto Sans"
+	font-weight: 200;
 }
 .single_article_content .alignleft {
 	padding: 0 10px;
