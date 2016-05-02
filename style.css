@@ -36,7 +36,9 @@
 }
 @font-face {
   font-family: "Noto Sans";
-  src: url("http://fonts.googleapis.com/css?family=Noto+Sans");
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+  url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+  url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
 }
 
 * {
