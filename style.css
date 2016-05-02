@@ -294,9 +294,9 @@ header, footer, span, a, p, article {
 	height: auto;
 }
 .single_article_content > p, .single_article_content > a  {
-	font-size: 13px;
+	font-size: 143px;
 	padding: 0 10px;
-	line-height: 1.6;
+	line-height: 1.5;
 	word-break: normal;
 	word-spacing: 1px;
 	font-family: "Noto Sans";
