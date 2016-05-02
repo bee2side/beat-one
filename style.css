@@ -311,7 +311,7 @@ header, footer, span, a, p, article {
 	word-break: normal;
 	word-spacing: 1px;
 	font-family: "Noto Sans";
-	font-weight: 200;
+	font-weight: 100;
 }
 .single_article_content .alignleft {
 	padding: 0 10px;
