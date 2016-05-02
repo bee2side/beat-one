@@ -608,7 +608,7 @@ header, footer, span, a, p, article {
 	}
 	.single_article_title, .single_article_content > p, .single_article_content > a, .single_article_content .alignnone {
 		padding: 0;
-		line-height: 1.5;
+		line-height: 1.6;
 	}
 	.single_article_title > a {
 		font-size: 44px;
