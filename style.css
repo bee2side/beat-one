@@ -236,7 +236,7 @@ header, footer, span, a, p, article {
 	padding-top: 76px;
 }
 .home_article{
-	margin-bottom: 40px;
+	margin-bottom: 38px;
 }
 .index_article_thumb {
 	background-repeat: no-repeat;
@@ -253,7 +253,7 @@ header, footer, span, a, p, article {
 	display: block;
 	font-size: 22px;
 	padding: 0 10px;
-	margin-bottom: 6px;
+	margin-bottom: 5px;
 	line-height: 1.2;
 }
 .index_article_info {
