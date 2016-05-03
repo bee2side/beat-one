@@ -425,8 +425,8 @@ header, footer, span, a, p, article {
 		transition: all 0.5s;
 	}
 	.menu_normal .blogTitle:hover {
-		-webkit-filter: invert(40%);
-		-moz-filter: invert(40%);
+		-webkit-filter: invert(50%);
+		-moz-filter: invert(50%);
 		filter: invert(40%);
 	}
 	.menu_normal .menubtn {
@@ -440,9 +440,9 @@ header, footer, span, a, p, article {
 		transition: all 0.5s;
 	}
 	.menu_normal .menubtn:hover {
-		-webkit-filter: invert(40%);
-		-moz-filter: invert(40%);
-		filter: invert(40%);
+		-webkit-filter: invert(50%);
+		-moz-filter: invert(50%);
+		filter: invert(50%);
 	}
 	.menu_normal_white .blogTitle_content {
 		width: 36px;
