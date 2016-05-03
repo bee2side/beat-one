@@ -420,6 +420,14 @@ header, footer, span, a, p, article {
 		background: url(image/buttonsx1.png) no-repeat 0 0;
 		background-size: 140px 400px;
 		margin-top: 18px;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+	.menu_normal .blogTitle:hover {
+		-webkit-filter: invert(15%);
+		-moz-filter: invert(15%);
+		filter: invert(15%);
 	}
 	.menu_normal .menubtn {
 	    width: 34px;
@@ -432,9 +440,9 @@ header, footer, span, a, p, article {
 		transition: all 0.5s;
 	}
 	.menu_normal .menubtn:hover {
-		-webkit-filter: invert(85%);
-		-moz-filter: invert(85%);
-		filter: invert(85%);
+		-webkit-filter: invert(15%);
+		-moz-filter: invert(15%);
+		filter: invert(15%);
 	}
 	.menu_normal_white .blogTitle_content {
 		width: 36px;
