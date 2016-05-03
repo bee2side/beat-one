@@ -700,7 +700,7 @@ header, footer, span, a, p, article {
 		text-decoration: none;
 	}
 	.bottom_nev div:hover {
-		opacity: 0.8;
+		-webkit-filter: brightness(0.80);
 	}
 	/* top image */
 	.top_img_container {
