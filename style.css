@@ -542,7 +542,14 @@ header, footer, span, a, p, article {
 		font-size: 12px;
 	}
 	#footer span:hover {
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+	#footer span:hover {
 		-webkit-filter: brightness(0.80);
+		-moz-filter: brightness(0.80) ;
+		filter: brightness(0.80) ;
 	}
 
 	/* container */
