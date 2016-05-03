@@ -581,7 +581,7 @@ header, footer, span, a, p, article {
 		line-height: 1.6;
 		font-size: 12px;
 	}
-	#footer span:hover {
+	#footer span {
 		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
 		transition: all 0.5s;
@@ -718,6 +718,11 @@ header, footer, span, a, p, article {
 	}
 	.bottom_nev div a {
 		text-decoration: none;
+	}
+	.bottom_nev div {
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
 	}
 	.bottom_nev div:hover div{
 		-webkit-filter: brightness(0.80);
