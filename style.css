@@ -513,6 +513,11 @@ header, footer, span, a, p, article {
 		background-size: 140px 400px;
 		display: inline-block;
 	}
+	.menu_open .blogTitle:hover {
+		-webkit-filter: invert(15%);
+		-moz-filter: invert(15%);
+		filter: invert(15%);
+	}
 	.menu_open .menubtn {
 		width: 36px;
 		height: 26px;
@@ -520,6 +525,11 @@ header, footer, span, a, p, article {
 		background-size: 140px 400px;
 		display: block;
 		float: right;
+	}
+	.menu_open .menubtn:hover {
+		-webkit-filter: invert(15%);
+		-moz-filter: invert(15%);
+		filter: invert(15%);
 	}
 	.top_menu ul li {
 		padding-right: 112px;
