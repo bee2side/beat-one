@@ -292,12 +292,12 @@ header, footer, span, a, p, article {
 	display: block;
 	margin-bottom: 26px;
 	line-height: 1;
-	color: #666;
+	color: #999;
 	letter-spacing: -1px;
 	/*font-size: 12px;*/
 }
 .single_article_info a {
-	font-size: 12px;
+	font-size: 14px;
 	color: #666;
 	vertical-align: 4px;
 	letter-spacing: 0;
