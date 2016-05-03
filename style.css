@@ -420,9 +420,9 @@ header, footer, span, a, p, article {
 		background: url(image/buttonsx1.png) no-repeat 0 0;
 		background-size: 140px 400px;
 		margin-top: 18px;
-		-webkit-transition: all 0.5s;
+/*		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
-		transition: all 0.5s;
+		transition: all 0.5s;*/
 	}
 	.menu_normal .blogTitle:hover {
 		-webkit-filter: invert(50%);
@@ -435,9 +435,9 @@ header, footer, span, a, p, article {
 	    background: url(image/buttonsx1.png) no-repeat 0 -30px;
 	    background-size: 140px 400px;
 	    margin-top: 14px;
-		-webkit-transition: all 0.5s;
+/*		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
-		transition: all 0.5s;
+		transition: all 0.5s;*/
 	}
 	.menu_normal .menubtn:hover {
 		-webkit-filter: invert(50%);
