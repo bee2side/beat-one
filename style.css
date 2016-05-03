@@ -427,6 +427,14 @@ header, footer, span, a, p, article {
 	    background: url(image/buttonsx1.png) no-repeat 0 -30px;
 	    background-size: 140px 400px;
 	    margin-top: 14px;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+	.menu_normal .menubtn:hover {
+		-webkit-filter: brightness(0.85);
+		-moz-filter: brightness(0.85);
+		filter: brightness(0.85);
 	}
 	.menu_normal_white .blogTitle_content {
 		width: 36px;
@@ -547,9 +555,9 @@ header, footer, span, a, p, article {
 		transition: all 0.5s;
 	}
 	#footer span:hover {
-		-webkit-filter: brightness(0.80);
-		-moz-filter: brightness(0.80) ;
-		filter: brightness(0.80) ;
+		-webkit-filter: brightness(0.85);
+		-moz-filter: brightness(0.85) ;
+		filter: brightness(0.85) ;
 	}
 
 	/* container */
@@ -594,9 +602,13 @@ header, footer, span, a, p, article {
 		margin-bottom: 12px;
 		padding-bottom: 25%;
 		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
 	}
 	.index_article_thumb:hover {
 		-webkit-filter: brightness(0.80);
+		-moz-filter: brightness(0.80);
+		filter: brightness(0.80);
 	}
 	#wp-load-more-btn {
 		width: 36px;
