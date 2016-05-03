@@ -541,6 +541,9 @@ header, footer, span, a, p, article {
 		line-height: 1.6;
 		font-size: 12px;
 	}
+	#footer span:hover {
+		-webkit-filter: brightness(0.80);
+	}
 
 	/* container */
 	#index_main {
