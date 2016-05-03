@@ -420,14 +420,11 @@ header, footer, span, a, p, article {
 		background: url(image/buttonsx1.png) no-repeat 0 0;
 		background-size: 140px 400px;
 		margin-top: 18px;
-/*		-webkit-transition: all 0.5s;
-		-moz-transition: all 0.5s;
-		transition: all 0.5s;*/
 	}
 	.menu_normal .blogTitle:hover {
 		-webkit-filter: invert(50%);
 		-moz-filter: invert(50%);
-		filter: invert(40%);
+		filter: invert(50%);
 	}
 	.menu_normal .menubtn {
 	    width: 34px;
@@ -435,9 +432,6 @@ header, footer, span, a, p, article {
 	    background: url(image/buttonsx1.png) no-repeat 0 -30px;
 	    background-size: 140px 400px;
 	    margin-top: 14px;
-/*		-webkit-transition: all 0.5s;
-		-moz-transition: all 0.5s;
-		transition: all 0.5s;*/
 	}
 	.menu_normal .menubtn:hover {
 		-webkit-filter: invert(50%);
@@ -468,6 +462,11 @@ header, footer, span, a, p, article {
 		float: left;
 		margin-top: 18px;
 	}
+	.menu_normal .blogTitle_content:hover {
+		-webkit-filter: invert(50%);
+		-moz-filter: invert(50%);
+		filter: invert(50%);
+	}
 	.menu_normal .menubtn_content {
 	    width: 34px;
 	    height: 34px;
@@ -475,6 +474,11 @@ header, footer, span, a, p, article {
 	    background-size: 140px 400px;
 	    float: right;
 	    margin-top: 14px;
+	}
+	.menu_normal .menubtn_content:hover {
+		-webkit-filter: invert(50%);
+		-moz-filter: invert(50%);
+		filter: invert(50%);
 	}
 	.menu_normal {
 		padding: 0 20px 0;
