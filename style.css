@@ -251,9 +251,9 @@ header, footer, span, a, p, article {
 /**/
 .index_article_title {
 	display: block;
-	font-size: 20px;
+	font-size: 22px;
 	padding: 0 10px;
-	margin-bottom: 4px;
+	margin-bottom: 6px;
 	line-height: 1.2;
 }
 .index_article_info {
@@ -263,7 +263,7 @@ header, footer, span, a, p, article {
 	color: #999;
 }
 .index_article_info a{
-	font-size: 11px;
+	font-size: 12px;
 	display: inline-block;
 }
 #wp-load-more-btn {
