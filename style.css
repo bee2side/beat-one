@@ -699,7 +699,7 @@ header, footer, span, a, p, article {
 	.bottom_nev div a {
 		text-decoration: none;
 	}
-	.bottom_nev div:hover {
+	.bottom_nev div:hover div{
 		-webkit-filter: brightness(0.80);
 	}
 	/* top image */
