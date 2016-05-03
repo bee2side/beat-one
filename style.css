@@ -294,7 +294,6 @@ header, footer, span, a, p, article {
 	line-height: 1;
 	color: #999;
 	letter-spacing: -1px;
-	/*font-size: 12px;*/
 }
 .single_article_info a {
 	font-size: 13px;
