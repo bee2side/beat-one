@@ -432,7 +432,7 @@ header, footer, span, a, p, article {
 		transition: all 0.5s;
 	}
 	.menu_normal .menubtn:hover {
-		-webkit-filter: brightness(0.25);
+		-webkit-filter: invert(100%);
 		-moz-filter: brightness(0.25);
 		filter: brightness(0.25);
 	}
