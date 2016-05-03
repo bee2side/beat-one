@@ -283,7 +283,7 @@ header, footer, span, a, p, article {
 	margin-bottom: 6px;
 }
 .single_article_title a {
-	font-size: 23px;
+	font-size: 26px;
 	font-weight: 200;
 }
 .single_article_info {
@@ -293,6 +293,7 @@ header, footer, span, a, p, article {
 	line-height: 1;
 	color: #999;
 	letter-spacing: -1px;
+	font-size: 12px;
 }
 .single_article_info a {
 	font-size: 12px;
@@ -305,7 +306,7 @@ header, footer, span, a, p, article {
 	height: auto;
 }
 .single_article_content > p, .single_article_content > a  {
-	font-size: 12px;
+	font-size: 14px;
 	padding: 0 10px;
 	line-height: 1.7;
 	word-break: normal;
