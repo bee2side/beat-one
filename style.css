@@ -265,6 +265,7 @@ header, footer, span, a, p, article {
 .index_article_info a{
 	font-size: 13px;
 	display: inline-block;
+	color: #999;
 }
 #wp-load-more-btn {
 	width: 28px;
